@@ -17,4 +17,4 @@ pod "CellularLocalStorage"
 
 ## License
 
-CELLULAR is released under the MIT license. [See LICENSE](https://github.com/cellular/cellular-swift/blob/master/LICENSE) for details.
+CELLULAR is released under the MIT license. [See LICENSE](https://github.com/cellular/localstorage-swift/blob/master/LICENSE) for details.
