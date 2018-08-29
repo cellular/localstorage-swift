@@ -1,0 +1,6 @@
+framework module CELLULAR {
+  umbrella header "CELLULAR-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

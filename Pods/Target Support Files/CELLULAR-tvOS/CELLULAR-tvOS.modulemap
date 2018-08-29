@@ -1,0 +1,6 @@
+framework module CELLULAR {
+  umbrella header "CELLULAR-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

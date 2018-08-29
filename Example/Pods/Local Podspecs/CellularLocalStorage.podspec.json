@@ -1,0 +1,63 @@
+{
+  "name": "CellularLocalStorage",
+  "module_name": "LocalStorage",
+  "version": "4.0.0",
+  "summary": "A short description of cellularlocalstorage.",
+  "description": "Module for saving Data locally",
+  "homepage": "www.cellular.de",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cellular GmbH": "office@cellular.de"
+  },
+  "source": {
+    "git": "git@git.intranet.cellular.de:ios_tools/CellularLocalStorage.git",
+    "tag": "4.0.0"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "9.0",
+    "watchos": "2.0"
+  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "CELLULAR/Result": [
+          "~> 4.0.0"
+        ],
+        "CELLULAR/Locking": [
+          "~> 4.0.0"
+        ]
+      },
+      "source_files": "Source/Core/**/*.swift"
+    },
+    {
+      "name": "Wrap",
+      "dependencies": {
+        "Wrap": [
+          "~> 2.0"
+        ],
+        "CellularLocalStorage/Core": [
+
+        ]
+      },
+      "source_files": "Source/Wrap/WrapEncoder.swift"
+    },
+    {
+      "name": "Unbox",
+      "dependencies": {
+        "Unbox": [
+          "~> 2.3"
+        ],
+        "CellularLocalStorage/Core": [
+
+        ]
+      },
+      "source_files": "Source/Unbox/UnboxDecoder.swift"
+    }
+  ]
+}

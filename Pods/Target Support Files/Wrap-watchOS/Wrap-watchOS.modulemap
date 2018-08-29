@@ -1,0 +1,6 @@
+framework module Wrap {
+  umbrella header "Wrap-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "CELLULAR",
+  "version": "4.0.0",
+  "module_name": "CELLULAR",
+  "summary": "Collection of CELLULAR specific µ-frameworks and utility classes/extensions.",
+  "homepage": "http://www.cellular.de",
+  "authors": {
+    "CELLULAR GmbH": "office@cellular.de"
+  },
+  "license": {
+    "type": "CELLULAR Proprietary",
+    "file": "LICENSE"
+  },
+  "source": {
+    "git": "git@git.intranet.cellular.de:ios_tools/cellular.git",
+    "tag": "4.0.0"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "9.0",
+    "watchos": "2.0"
+  },
+  "default_subspecs": [
+    "Result",
+    "Locking",
+    "Codable",
+    "Storyboard"
+  ],
+  "subspecs": [
+    {
+      "name": "Codable",
+      "source_files": "Sources/Codable/**/*.swift"
+    },
+    {
+      "name": "Locking",
+      "source_files": "Sources/Locking/**/*.swift"
+    },
+    {
+      "name": "Result",
+      "source_files": "Sources/Result/**/*.swift"
+    },
+    {
+      "name": "Storyboard",
+      "source_files": "Sources/Storyboard/**/*.swift"
+    }
+  ]
+}
