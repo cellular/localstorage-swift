@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
  spec.name             = 'CellularLocalStorage'
  spec.module_name      = 'LocalStorage'
  spec.version          = '4.1.0'
- spec.summary          = 'A short description of cellularlocalstorage.'
+ spec.summary          = 'Module for saving data locally'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
- spec.description      = 'Module for saving Data locally'
+ spec.description      = 'Module for saving data locally'
 
  spec.homepage         = 'www.cellular.de'
  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
