@@ -403,7 +403,6 @@
 				C42BAC5C1E5B4FEA000E2FCE /* Frameworks */,
 				C42BAC5D1E5B4FEA000E2FCE /* Headers */,
 				C42BAC5E1E5B4FEA000E2FCE /* Resources */,
-				5FAEFDADB164735042B383B9 /* [CP] Copy Pods Resources */,
 				C4044B611E5B568400F70468 /* Swiftlint */,
 			);
 			buildRules = (
@@ -424,7 +423,6 @@
 				C42BAC651E5B4FEB000E2FCE /* Frameworks */,
 				C42BAC661E5B4FEB000E2FCE /* Resources */,
 				837349EACAF4957FC54AF995 /* [CP] Embed Pods Frameworks */,
-				539DF6528D772428538B868D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -463,7 +461,6 @@
 				C4C84E4E1E966A8E00D53AFD /* Frameworks */,
 				C4C84E4F1E966A8E00D53AFD /* Headers */,
 				C4C84E501E966A8E00D53AFD /* Resources */,
-				9953C560BE4C21D01B7DE198 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -483,7 +480,6 @@
 				C4C84E5B1E966ABD00D53AFD /* Frameworks */,
 				C4C84E5C1E966ABD00D53AFD /* Headers */,
 				C4C84E5D1E966ABD00D53AFD /* Resources */,
-				8C79B3D0466E759BF32D01D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -611,36 +607,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		539DF6528D772428538B868D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellularLocalStorageTests/Pods-CellularLocalStorageTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5FAEFDADB164735042B383B9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellularLocalStorage iOS/Pods-CellularLocalStorage iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		837349EACAF4957FC54AF995 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,21 +629,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellularLocalStorageTests/Pods-CellularLocalStorageTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C79B3D0466E759BF32D01D0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellularLocalStorage watchOS/Pods-CellularLocalStorage watchOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		927784B0F4E066E3EE95DFA4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -694,21 +645,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9953C560BE4C21D01B7DE198 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellularLocalStorage tvOS/Pods-CellularLocalStorage tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9BD1366F707CC1AB3A88CACF /* [CP] Check Pods Manifest.lock */ = {
@@ -759,7 +695,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -934,7 +870,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -980,7 +916,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1006,7 +942,6 @@
 				PRODUCT_NAME = LocalStorage;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1032,7 +967,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorage;
 				PRODUCT_NAME = LocalStorage;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1052,7 +986,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellularLocalStorageTestHost.app/CellularLocalStorageTestHost";
 			};
 			name = Debug;
@@ -1068,7 +1001,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellularLocalStorageTestHost.app/CellularLocalStorageTestHost";
 			};
 			name = Release;
@@ -1086,7 +1018,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorageTestHost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1102,7 +1033,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorageTestHost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1130,7 +1060,6 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1159,7 +1088,6 @@
 				PRODUCT_NAME = LocalStorage;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1191,7 +1119,6 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1221,7 +1148,6 @@
 				PRODUCT_NAME = LocalStorage;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
