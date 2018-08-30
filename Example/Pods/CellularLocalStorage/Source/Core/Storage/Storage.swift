@@ -1,20 +1,6 @@
-/************************************************************************
- CELLULAR Proprietary
- Copyright (c) 2015, CELLULAR GmbH. All Rights Reserved
-
- CELLULAR GmbH., Große Elbstraße 39, D-22767 Hamburg, GERMANY
-
- All data and information contained in or disclosed by this document are
- confidential and proprietary information of CELLULAR, and all rights
- therein are expressly reserved. By accepting this material, the
- recipient agrees that this material and the information contained
- therein are held in confidence and in trust. The material may only be
- used and/or disclosed as authorized in a license agreement controlling
- such use and disclosure.
- *************************************************************************/
-
 import Foundation
 
+/// Defines a standardized behaviour for persisting data within module LocalStorage.
 public protocol Storage {
 
     // MARK: Properties
@@ -54,6 +40,7 @@ public protocol Storage {
     ///
     /// - Parameter decoder: Decoder to use to decode stored object data to a concrete instance
     /// - Returns: First object or nil
+    /// - Throws: Decoding error
     func first<T, D: Decoder>(using decoder: D) throws -> T? where T == D.Decodable
 
     /// OPTIONAL
@@ -93,6 +80,14 @@ public protocol Storage {
     /// - Throws: Decoding error
     func contains<T, D: Decoder>(using decoder: D, where predicate: (T) -> Bool) throws -> Bool where T == D.Decodable
 
+    /// OPTIONAL
+    /// Returns last object from storage or nil if storage is empty
+    ///
+    /// - Parameter decoder: Decoder to use to decode stored object data to a concrete instance
+    /// - Returns: First object or nil
+    /// - Throws: Decoding error
+    func last<T, D: Decoder>(using decoder: D) throws -> T? where T == D.Decodable
+
     // MARK: Delete
 
     /// Removes first object from storage matching predicate
@@ -123,6 +118,7 @@ public protocol Storage {
 }
 
 // MARK: - Default Implementation / Convenience
+
 extension Storage {
 
     /// Returns count of objects currently stored in storage
@@ -170,4 +166,12 @@ extension Storage {
         return try all(using: decoder).contains(where: predicate)
     }
 
+    /// Returns last object from storage or nil if storage is empty
+    ///
+    /// - Parameter decoder: Decoder to use to decode stored object data to a concrete instance
+    /// - Returns: First object or nil
+    /// - Throws: Decoding error
+    public func last<T, D: Decoder>(using decoder: D) throws -> T? where T == D.Decodable {
+        return try all(using: decoder).last
+    }
 }

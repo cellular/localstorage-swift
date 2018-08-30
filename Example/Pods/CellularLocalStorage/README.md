@@ -1,15 +1,12 @@
-# CellularLocalStorage
-
-[![CI Status](http://img.shields.io/travis/Michael Haß/CellularLocalStorage.svg?style=flat)](https://travis-ci.org/Michael Haß/CellularLocalStorage)
-[![Version](https://img.shields.io/cocoapods/v/CellularLocalStorage.svg?style=flat)](http://cocoapods.org/pods/CellularLocalStorage)
-[![License](https://img.shields.io/cocoapods/l/CellularLocalStorage.svg?style=flat)](http://cocoapods.org/pods/CellularLocalStorage)
-[![Platform](https://img.shields.io/cocoapods/p/CellularLocalStorage.svg?style=flat)](http://cocoapods.org/pods/CellularLocalStorage)
+![CELLULAR](https://www.cellular.de/cellular-logo.png)
+[![Build Status](https://travis-ci.com/cellular/localstorage-swift.svg?branch=master)](https://travis-ci.com/cellular/llocalstorage-swift)
+[![codecov](https://codecov.io/gh/cellular/localstorage-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/cellular/localstorage-swift)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CELLULAR.svg)](https://cocoapods.org/pods/cellular)
+[![Swift Version](https://img.shields.io/badge/swift-4.1-orange.svg)](https://swift.org)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -20,10 +17,6 @@ it, simply add the following line to your Podfile:
 pod "CellularLocalStorage"
 ```
 
-## Author
-
-
-
 ## License
 
-CellularLocalStorage is available under the MIT license. See the LICENSE file for more info.
+CELLULAR is released under the MIT license. [See LICENSE](https://github.com/cellular/localstorage-swift/blob/master/LICENSE) for details.

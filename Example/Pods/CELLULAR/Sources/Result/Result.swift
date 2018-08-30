@@ -1,18 +1,3 @@
-/************************************************************************
- CELLULAR Proprietary
- Copyright (c) 2015, CELLULAR GmbH. All Rights Reserved
-
- CELLULAR GmbH., Große Elbstraße 39, D-22767 Hamburg, GERMANY
-
- All data and information contained in or disclosed by this document are
- confidential and proprietary information of CELLULAR, and all rights
- therein are expressly reserved. By accepting this material, the
- recipient agrees that this material and the information contained
- therein are held in confidence and in trust. The material may only be
- used and/or disclosed as authorized in a license agreement controlling
- such use and disclosure.
- *************************************************************************/
-
 import Foundation
 
 /// Generic enumeration to wrap two models that are actually different (e.g. model that has been parsed and
@@ -41,9 +26,9 @@ extension Result: CustomStringConvertible, CustomDebugStringConvertible {
     public var description: String {
         switch self {
         case let .success(model):
-            return "Success result - model:\n\(model)"
-        case let .failure(message):
-            return "Failure result - error:\n\(message)"
+            return "Success result - model:\n\(String(describing: model))"
+        case let .failure(error):
+            return "Failure result - error:\n\(String(describing: error))"
         }
     }
 
@@ -51,9 +36,9 @@ extension Result: CustomStringConvertible, CustomDebugStringConvertible {
     public var debugDescription: String {
         switch self {
         case let .success(model):
-            return "Success result - model:\n\(model)"
-        case let .failure(message):
-            return "Failure result - error:\n\(message)"
+            return "Success result - model:\n\(String(reflecting: model))"
+        case let .failure(error):
+            return "Failure result - error:\n\(String(reflecting: error))"
         }
     }
 }

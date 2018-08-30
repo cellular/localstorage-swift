@@ -393,7 +393,7 @@
 			baseConfigurationReference = F5EA669C9054407017CC1D1D /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AYW29B44VY;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.example.ios.Example;
@@ -408,7 +408,7 @@
 			baseConfigurationReference = E8F14355C4092B2DAB4FD07A /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AYW29B44VY;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.example.ios.Example;

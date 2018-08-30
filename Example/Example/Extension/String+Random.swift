@@ -1,12 +1,5 @@
-//
-//  String+Random.swift
-//  Example
-//
-//  Created by Michael Hass on 02.08.17.
-//  Copyright © 2017 CELLULAR GmbH. All rights reserved.
-//
-
 import Foundation
+
 extension String {
     static func random(length: Int = 5) -> String {
         let base = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"

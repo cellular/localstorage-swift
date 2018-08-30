@@ -1,35 +1,29 @@
 PODS:
-  - CELLULAR/Locking (4.0.0)
-  - CELLULAR/Result (4.0.0)
-  - CellularLocalStorage/Core (4.0.0):
-    - CELLULAR/Locking (~> 4.0.0)
-    - CELLULAR/Result (~> 4.0.0)
+  - CELLULAR/Locking (4.1.0)
+  - CELLULAR/Result (4.1.0)
+  - CellularLocalStorage/Core (4.1.0):
+    - CELLULAR/Locking (~> 4.1.0)
+    - CELLULAR/Result (~> 4.1.0)
 
 DEPENDENCIES:
-  - CELLULAR/Locking (from `git@git.intranet.cellular.de:ios_tools/cellular.git`, branch `develop`)
-  - CELLULAR/Result (from `git@git.intranet.cellular.de:ios_tools/cellular.git`, branch `develop`)
-  - CellularLocalStorage/Core (from `git@git.intranet.cellular.de:ios_tools/cellularlocalstorage.git`, branch `release/4.0.0`)
+  - CELLULAR/Locking (~> 4.1.0)
+  - CELLULAR/Result (~> 4.1.0)
+  - CellularLocalStorage/Core (from `git@github.com:cellular/localstorage-swift.git`, branch `master`)
 
 EXTERNAL SOURCES:
-  CELLULAR:
-    :branch: develop
-    :git: git@git.intranet.cellular.de:ios_tools/cellular.git
   CellularLocalStorage:
-    :branch: release/4.0.0
-    :git: git@git.intranet.cellular.de:ios_tools/cellularlocalstorage.git
+    :branch: master
+    :git: git@github.com:cellular/localstorage-swift.git
 
 CHECKOUT OPTIONS:
-  CELLULAR:
-    :commit: 004d458c0c2ddf75d4575522b93dac04743d0dd5
-    :git: git@git.intranet.cellular.de:ios_tools/cellular.git
   CellularLocalStorage:
-    :commit: ede87cfae184104debf809f2ddc214e81377defe
-    :git: git@git.intranet.cellular.de:ios_tools/cellularlocalstorage.git
+    :commit: a583232a7fd4c29e32a330a8d18ab74e1cd7f609
+    :git: git@github.com:cellular/localstorage-swift.git
 
 SPEC CHECKSUMS:
-  CELLULAR: 776dfdc3863dad9bad03a0f897bf6819f70b2c7b
-  CellularLocalStorage: e7a5920a0c996056de7d5637d04a2821cadc58cb
+  CELLULAR: 6af608774a6d7fed3a77b998aac37e5c6750beec
+  CellularLocalStorage: 42af9f5a3fe7bd2ac0846c8bd9e78932edf257f3
 
-PODFILE CHECKSUM: 719137ca058be4a022e820c912d95200a6ce5362
+PODFILE CHECKSUM: f882983aa2b5470425c7d5c3571f7498c3f5582a
 
 COCOAPODS: 1.4.0

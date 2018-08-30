@@ -1,12 +1,10 @@
-source 'git@git.intranet.cellular.de:ios_tools/specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-
 def frameworks_pods
-    pod 'CELLULAR/Locking', :git => 'git@git.intranet.cellular.de:ios_tools/cellular.git', :branch => 'develop'
-    pod 'CELLULAR/Result', :git => 'git@git.intranet.cellular.de:ios_tools/cellular.git', :branch => 'develop'
-    pod 'CellularLocalStorage/Core', :git => 'git@git.intranet.cellular.de:ios_tools/cellularlocalstorage.git', :branch => 'release/4.0.0'
+    pod 'CELLULAR/Locking', '~> 4.1.0'
+    pod 'CELLULAR/Result', '~> 4.1.0'
+    pod 'CellularLocalStorage/Core', :git => 'git@github.com:cellular/localstorage-swift.git', :branch => 'master'
 end
 
 target 'Example' do

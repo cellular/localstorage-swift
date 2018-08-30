@@ -1,21 +1,7 @@
-/************************************************************************
- CELLULAR Proprietary
- Copyright (c) 2015, CELLULAR GmbH. All Rights Reserved
-
- CELLULAR GmbH., Große Elbstraße 39, D-22767 Hamburg, GERMANY
-
- All data and information contained in or disclosed by this document are
- confidential and proprietary information of CELLULAR, and all rights
- therein are expressly reserved. By accepting this material, the
- recipient agrees that this material and the information contained
- therein are held in confidence and in trust. The material may only be
- used and/or disclosed as authorized in a license agreement controlling
- such use and disclosure.
- *************************************************************************/
-
 import Foundation
 import CELLULAR
 
+/// Extentends LocalStorage.Manager with asynchronous storage handling.
 public final class AsyncManager {
 
     // MARK: properties
@@ -148,6 +134,19 @@ public final class AsyncManager {
                                    completion: @escaping (Result<[T], Error>) -> Void) where T == D.Decodable {
 
         handle(task: { $0.all(from: storageIdentifier, using: decoder) }, completion: completion)
+    }
+
+    /// loads last model instance in storage that was decodable with the given decoder.
+    ///
+    /// - Parameters:
+    ///   - storageIdentifier: String identifying storage
+    ///   - decoder: Decoder to use to decode stored object data to a concrete instance
+    /// - Returns: Returns list of decoded models
+    public func last<T, D: Decoder>(from storageIdentifier: String,
+                                    using decoder: D,
+                                    completion: @escaping (Result<T?, Error>) -> Void) where T == D.Decodable {
+
+        handle(task: { $0.last(from: storageIdentifier, using: decoder) }, completion: completion)
     }
 
     // MARK: Delete

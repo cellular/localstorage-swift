@@ -1,7 +1,7 @@
 {
   "name": "CellularLocalStorage",
   "module_name": "LocalStorage",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "summary": "A short description of cellularlocalstorage.",
   "description": "Module for saving Data locally",
   "homepage": "www.cellular.de",
@@ -13,8 +13,8 @@
     "Cellular GmbH": "office@cellular.de"
   },
   "source": {
-    "git": "git@git.intranet.cellular.de:ios_tools/CellularLocalStorage.git",
-    "tag": "4.0.0"
+    "git": "https://github.com/cellular/localstorage-swift.git",
+    "tag": "4.1.0"
   },
   "platforms": {
     "ios": "9.0",
@@ -27,10 +27,10 @@
       "name": "Core",
       "dependencies": {
         "CELLULAR/Result": [
-          "~> 4.0.0"
+          "~> 4.1.0"
         ],
         "CELLULAR/Locking": [
-          "~> 4.0.0"
+          "~> 4.1.0"
         ]
       },
       "source_files": "Source/Core/**/*.swift"

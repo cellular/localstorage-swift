@@ -1,24 +1,10 @@
-/************************************************************************
- CELLULAR Proprietary
- Copyright (c) 2015, CELLULAR GmbH. All Rights Reserved
-
- CELLULAR GmbH., Große Elbstraße 39, D-22767 Hamburg, GERMANY
-
- All data and information contained in or disclosed by this document are
- confidential and proprietary information of CELLULAR, and all rights
- therein are expressly reserved. By accepting this material, the
- recipient agrees that this material and the information contained
- therein are held in confidence and in trust. The material may only be
- used and/or disclosed as authorized in a license agreement controlling
- such use and disclosure.
- *************************************************************************/
-
 import Foundation
 import CELLULAR
 
+/// Handles multiple instances of storages synchronously and safely.
 public final class Manager {
 
-    // MARK Prperties
+    // MARK: Properties
 
     /// Returns manager for async handling of storages.
     /// Initializer ensures creation of async property.
@@ -86,7 +72,6 @@ public final class Manager {
     // MARK: load
 
     /// Loads first object from storage matching predicate.
-
     ///
     /// - Parameters:
     ///   - storageIdentifier: String identifying storage
@@ -151,7 +136,7 @@ public final class Manager {
     ///   - predicate: A closure that takes an element of the
     ///   storage as its argument and returns a Boolean value indicating
     ///   whether the element is a match.
-    /// - Returns: The true if item is contained in storage.
+    /// - Returns: Ttrue if item is contained in storage.
     public func contains<T, D: Decoder>(_ storageIdentifier: String,
                                         using decoder: D,
                                         where predicate: (T) -> Bool) -> Result<Bool, Error> where T == D.Decodable {
@@ -174,6 +159,22 @@ public final class Manager {
 
         return read(from: storageIdentifier, task: {
             return try .success($0.all(using: decoder))
+
+        }, customError: {
+            return .decoding("Error trying to load data from storage: \($0)")
+        })
+    }
+
+    /// loads last model instance in storage that was decodable with the given decoder.
+    ///
+    /// - Parameters:
+    ///   - storageIdentifier: String identifying storage
+    ///   - decoder: Decoder to use to decode stored object data to a concrete instance
+    /// - Returns: Returns list of decoded models
+    public func last<T, D: Decoder>(from storageIdentifier: String, using decoder: D) -> Result<T?, Error> where T == D.Decodable {
+
+        return read(from: storageIdentifier, task: {
+            return try .success($0.last(using: decoder))
 
         }, customError: {
             return .decoding("Error trying to load data from storage: \($0)")

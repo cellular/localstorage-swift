@@ -1,20 +1,7 @@
-/************************************************************************
- CELLULAR Proprietary
- Copyright (c) 2015, CELLULAR GmbH. All Rights Reserved
-
- CELLULAR GmbH., Große Elbstraße 39, D-22767 Hamburg, GERMANY
-
- All data and information contained in or disclosed by this document are
- confidential and proprietary information of CELLULAR, and all rights
- therein are expressly reserved. By accepting this material, the
- recipient agrees that this material and the information contained
- therein are held in confidence and in trust. The material may only be
- used and/or disclosed as authorized in a license agreement controlling
- such use and disclosure.
- *************************************************************************/
-
 import Foundation
 
+/// Memory cache for storages. Not an actual storage. Decorates implementation of a concrete storage with caching mechanism.
+/// The cache will store every model directly without encoding. Thus time for accessing objects from storage is drastically reduced.
 public final class CachedStorage: Storage {
 
     /// Path to store data
@@ -75,7 +62,7 @@ public final class CachedStorage: Storage {
     /// - Returns: Return List of decoded models
     public func all<T, D: Decoder>(using decoder: D) throws -> [T] where T == D.Decodable {
 
-        if let cache = cache { return cache.flatMap { $0 as? T } }
+        if let cache = cache { return cache.compactMap { $0 as? T } }
 
         let storedObjedts = try storage.all(using: decoder)
         cache = storedObjedts
@@ -123,5 +110,34 @@ public final class CachedStorage: Storage {
 
         cache = nil
         try storage.clear()
+    }
+}
+// MARK: - Optional Operations
+
+/// Change default operations to improve performance
+extension CachedStorage {
+
+    /// Returns first decoded object from storage or nil
+    ///
+    /// - Parameter decoder: Decoder to use to decode stored object data to a concrete instance
+    /// - Returns: First object or nil
+    public func first<T, D: Decoder>(using decoder: D) throws -> T? where T == D.Decodable {
+
+        if let cachedObject = cache?.first as? T {
+            return cachedObject
+        }
+        return try all(using: decoder).first
+    }
+
+    /// Returns last object from storage or nil if storage is empty
+    ///
+    /// - Parameter decoder: Decoder to use to decode stored object data to a concrete instance
+    /// - Returns: First object or nil
+    /// - Throws: Decoding error
+    public func last<T, D: Decoder>(using decoder: D) throws -> T? where T == D.Decodable {
+        if let cachedObject = cache?.last as? T {
+            return cachedObject
+        }
+        return try all(using: decoder).last
     }
 }

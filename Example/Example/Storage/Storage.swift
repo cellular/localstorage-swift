@@ -1,11 +1,3 @@
-//
-//  Storage.swift
-//  Example
-//
-//  Created by Michael Hass on 02.08.17.
-//  Copyright © 2017 CELLULAR GmbH. All rights reserved.
-//
-
 import Foundation
 import LocalStorage
 import CELLULAR
@@ -13,19 +5,26 @@ import CELLULAR
 // MARK: - Internal Storage handling
 
 final class Storage {
+
     // Identifies existing Storages. Used internally for easy storage access through LocalStorage.Manager.
    private enum Identifier: String {
         case user
+
+        // Path to store data to.
+        var path: String {
+            switch self {
+            case .user: return "example.storage.user"
+            }
+        }
     }
 
     // Shared Instance managing all storages needed within the App. Should not be access directly by the client.
     // NOTE: To clear up responsibilities and make code more testable, create a wrapper class that hides storage access from client
     // and prepares requested data for the client.
     private static let manager: LocalStorage.Manager = {
-        // Path to store data to.
-        let path: String = "example.storage.user"
+
         // Storage persisting data to user storage to  key 'path'
-        let defaultsStorage = UserDefaultsStorage(userDefaults: UserDefaults.standard, path: path)
+        let defaultsStorage = UserDefaultsStorage(userDefaults: UserDefaults.standard, path: Identifier.user.path)
         // Wrap defaultsStorage with CachedStorage for faster access.
         let userStorage = CachedStorage(storage: defaultsStorage)
         // Dictionary containing all storages handled by Manager instance
@@ -38,7 +37,6 @@ final class Storage {
         // Serial queue for async handling. Enables sequential dispatching of completion blocks.
         // Needed for required behaviour in example app.
         // NOTE: Default Manager(storages: _, lock: _) uses a concurrent queue.
-        // Offers better perfmance and is recommended for most use cases.
         let asyncQueue = DispatchQueue(label: "async.queue")
 
         return Manager(storages: storages, lock: lock, asyncQueue: asyncQueue)
