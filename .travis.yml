@@ -1,14 +1,33 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
+sudo: required
+dist: trusty
+language: generic
+osx_image: xcode9.4
 
-osx_image: xcode7.3
-language: objective-c
-# cache: cocoapods
-# podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-- pod install --project-directory=Example
-script:
-- set -o pipefail && xcodebuild test -workspace Example/CellularLocalStorage.xcworkspace -scheme CellularLocalStorage-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+# Build Script
+before_script: chmod +x ./.travis/build.sh
+script: ./.travis/build.sh
+
+# Build Matrix
+matrix:
+    include:
+        # iOS
+        - os: osx
+          env: DESTINATION="OS=11.3,name=iPhone X"        SCHEME="CellularLocalStorage iOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=10.3.1,name=iPhone 7 Plus" SCHEME="CellularLocalStorage iOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=9.3,name=iPhone 6"         SCHEME="CellularLocalStorage iOS" RUN_TESTS="YES" POD_LINT="NO"
+        # watchOS
+        - os: osx
+          env: DESTINATION="OS=4.3,name=Apple Watch - 42mm" SCHEME="CellularLocalStorage watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=3.2,name=Apple Watch - 42mm" SCHEME="CellularLocalStorage watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=2.2,name=Apple Watch - 42mm" SCHEME="CellularLocalStorage watchOS" RUN_TESTS="NO" POD_LINT="NO"
+        # tvOS
+        - os: osx
+          env: DESTINATION="OS=11.3,name=Apple TV 4K"    SCHEME="CellularLocalStorage tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=10.2,name=Apple TV 1080p" SCHEME="CellularLocalStorage tvOS" RUN_TESTS="YES" POD_LINT="NO"
+        - os: osx
+          env: DESTINATION="OS=9.2,name=Apple TV 1080p"  SCHEME="CellularLocalStorage tvOS" RUN_TESTS="YES" POD_LINT="NO"
