@@ -8,22 +8,17 @@ PODS:
 DEPENDENCIES:
   - CELLULAR/Locking (~> 4.1.0)
   - CELLULAR/Result (~> 4.1.0)
-  - CellularLocalStorage/Core (from `git@github.com:cellular/localstorage-swift.git`, branch `master`)
+  - CellularLocalStorage/Core (~> 4.1.0)
 
-EXTERNAL SOURCES:
-  CellularLocalStorage:
-    :branch: master
-    :git: git@github.com:cellular/localstorage-swift.git
-
-CHECKOUT OPTIONS:
-  CellularLocalStorage:
-    :commit: a583232a7fd4c29e32a330a8d18ab74e1cd7f609
-    :git: git@github.com:cellular/localstorage-swift.git
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CELLULAR
+    - CellularLocalStorage
 
 SPEC CHECKSUMS:
   CELLULAR: 6af608774a6d7fed3a77b998aac37e5c6750beec
-  CellularLocalStorage: 42af9f5a3fe7bd2ac0846c8bd9e78932edf257f3
+  CellularLocalStorage: bd051e7714d035cbc25df11db7f6dc9413d1a7fb
 
-PODFILE CHECKSUM: f882983aa2b5470425c7d5c3571f7498c3f5582a
+PODFILE CHECKSUM: 42c1388a9ff296e31de63c191f0d905eb3f8db64
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

@@ -4,7 +4,7 @@ use_frameworks!
 def frameworks_pods
     pod 'CELLULAR/Locking', '~> 4.1.0'
     pod 'CELLULAR/Result', '~> 4.1.0'
-    pod 'CellularLocalStorage/Core', :git => 'git@github.com:cellular/localstorage-swift.git', :branch => 'master'
+    pod 'CellularLocalStorage/Core', '~> 4.1.0'
 end
 
 target 'Example' do
