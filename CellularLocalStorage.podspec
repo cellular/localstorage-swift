@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
  spec.swift_version    = '4.2'
  spec.module_name      = 'LocalStorage'
  spec.version          = '4.2.0'
- spec.summary          = 'Persist and access data safely'
+ spec.summary          = 'Easy to use storage for persisting small data sets'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
