@@ -1,7 +1,7 @@
 ![CELLULAR](https://www.cellular.de/cellular-logo.png)
 [![Build Status](https://travis-ci.com/cellular/localstorage-swift.svg?branch=master)](https://travis-ci.com/cellular/localstorage-swift)
 [![codecov](https://codecov.io/gh/cellular/localstorage-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/cellular/localstorage-swift)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CELLULAR.svg)](https://cocoapods.org/pods/cellular)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CellularLocalStorage.svg)](https://cocoapods.org/pods/CellularLocalStorage)
 [![Swift Version](https://img.shields.io/badge/swift-4.1-orange.svg)](https://swift.org)
 
 
@@ -62,7 +62,7 @@ let asyncQueue = DispatchQueue(label: "async.queue")
 let manager = Manager(storages: storages, lock: lock, asyncQueue: asyncQueue)
 ```
 
-#### 3. Save User
+#### 3. Save user
 
 ```swift
 
@@ -107,4 +107,4 @@ pod "CellularLocalStorage"
 
 ## License
 
-CELLULAR is released under the MIT license. [See LICENSE](https://github.com/cellular/localstorage-swift/blob/master/LICENSE) for details.
+CellularLocalStorage is released under the MIT license. [See LICENSE](https://github.com/cellular/localstorage-swift/blob/master/LICENSE) for details.
