@@ -1,24 +1,27 @@
 PODS:
   - CELLULAR/Locking (4.1.0)
   - CELLULAR/Result (4.1.0)
-  - CellularLocalStorage/Core (4.1.0):
+  - CellularLocalStorage/Core (4.2.0):
     - CELLULAR/Locking (~> 4.1.0)
     - CELLULAR/Result (~> 4.1.0)
 
 DEPENDENCIES:
   - CELLULAR/Locking (~> 4.1.0)
   - CELLULAR/Result (~> 4.1.0)
-  - CellularLocalStorage/Core (~> 4.1.0)
+  - CellularLocalStorage/Core (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CELLULAR
-    - CellularLocalStorage
+
+EXTERNAL SOURCES:
+  CellularLocalStorage:
+    :path: "../"
 
 SPEC CHECKSUMS:
   CELLULAR: 6af608774a6d7fed3a77b998aac37e5c6750beec
-  CellularLocalStorage: bd051e7714d035cbc25df11db7f6dc9413d1a7fb
+  CellularLocalStorage: a924b8eba604ee4bfbf2ced747521f654f5d6e10
 
-PODFILE CHECKSUM: 42c1388a9ff296e31de63c191f0d905eb3f8db64
+PODFILE CHECKSUM: ac9e3bdb9a49a91f4f778dce49a870f6db0db317
 
 COCOAPODS: 1.5.3

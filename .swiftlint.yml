@@ -3,5 +3,3 @@ included:
   - Source
 excluded:
   - Pods
-  - Example
-  - UnitTests

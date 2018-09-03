@@ -1,13 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-
 def frameworks_pods
     pod 'CELLULAR/Locking', '~> 4.1.0'
     pod 'CELLULAR/Result', '~> 4.1.0'
-    pod 'SwiftLint'
-    pod 'Unbox'
-    pod 'Wrap'
+    pod 'SwiftLint', '~> 0.27.0'
+    pod 'Unbox', '~> 2.5.0'
+    pod 'Wrap', '~> 3.0.0'
 end
 
 target 'CellularLocalStorage iOS' do

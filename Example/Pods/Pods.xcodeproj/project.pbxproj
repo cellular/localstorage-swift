@@ -3,37 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007890A2BD8E264C2678CAC56F856B33 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54D6A0433D47BAA0CF251C736F92A6 /* Decoder.swift */; };
-		00D4AB56C82895FD8992EB0B497940D1 /* AsyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175E3F342C7CD94D68B026E798315E36 /* AsyncManager.swift */; };
 		0B99F19469B1462D607DCFD81ED1EA9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2257C6A5CBC194B7E3047EE2619DE2B /* Foundation.framework */; };
-		1BC6AFE946195819A86A7C78CCCB60A9 /* CELLULAR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 065383F368FB47A96A0BFB3E54058E69 /* CELLULAR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC6AFE946195819A86A7C78CCCB60A9 /* CELLULAR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7FC94CD308FA28B16D026578E1812C /* CELLULAR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D4849CF58CB03B2A8C5319946AF30AD /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */; };
-		266E1C0809B10190939B795F85E3F212 /* NativeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F8BE373EADEEC33B548E890CE99B /* NativeDecoder.swift */; };
-		29A5D58EEB31B69152A2524BB03BB3B1 /* NativeEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8820E5E8B98E21C82A05628E4402506 /* NativeEncoder.swift */; };
+		24B20B2162C333D4D997908C34F281E8 /* CellularLocalStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E359D6C692158B05CE5ECEE97DA94C /* CellularLocalStorage-dummy.m */; };
 		2CDE18E9FA46CC83381764281ACBBD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2257C6A5CBC194B7E3047EE2619DE2B /* Foundation.framework */; };
-		2E31F5C3C6809CB03C97277F90CC48F5 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E571EAD366AC3D8AEF7B84ADAF2D2B1 /* Protected.swift */; };
-		3300B8EE8FC907C1D92EC1207D608A23 /* CellularLocalStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B584232B217EBC3817731A5C709C20BC /* CellularLocalStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B9ED7A932E564B3D5E44C978E68DE39 /* CachedStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51473274B8CC9B01F279DC713AA2AC08 /* CachedStorage.swift */; };
+		2E31F5C3C6809CB03C97277F90CC48F5 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D477679FF2BD0762AA7C20B81F596 /* Protected.swift */; };
+		3300B8EE8FC907C1D92EC1207D608A23 /* CellularLocalStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F6C22501A5DBD3915116A4F27FE14B /* CellularLocalStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A667B77B61CB4C919312B7C2DF5706 /* AsyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FEFF6803D24CD8A452AE86DB672A1A /* AsyncManager.swift */; };
+		3AED9EC3188A643D7206E9FD036EB19A /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9091A5E6261E19CAE56610F514FDF1 /* MemoryStorage.swift */; };
 		3FDAFE4BFD710EE8E8F8881F2FD27637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2257C6A5CBC194B7E3047EE2619DE2B /* Foundation.framework */; };
-		40C6708314740D22070BBD45F0E4D4A0 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2143B69BC22A9BC676F6CE09369FFF24 /* DispatchLock.swift */; };
-		470A1C8DD9096FD4EB0225A6946A6823 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DB061C4B4ED2E7557E2841C245BFF /* Storage.swift */; };
-		4CB224358EEF58519E8A4944E3685AD4 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C912FD4495692E512A9DB9E7C09F2A5 /* Error.swift */; };
-		5394A4FD40BEC2BE6C32A00CB99CD60B /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59691B41412E902B0042C4F55C067FE6 /* MemoryStorage.swift */; };
-		79B4582B06CDFDD4E11FFC97D402B686 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11F1B0E8F1AFE4C99353E0759D3AD4 /* Encoder.swift */; };
-		97165EA80AF9FB9723852F66E8C6B0EF /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10530D421E78417F0897ADC6E9ABEB9 /* UserDefaultsStorage.swift */; };
-		B9D28C23A720AB8DE4D0A035D642CA17 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B85A1457B7D7204082F3287BFBD2E /* Result.swift */; };
-		BA27F8892DD63EC2422EE571E90FF71C /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939431A91E29CD1875B01BCAADE9189 /* Lock.swift */; };
-		BE4EC55E5E48CCA94BF3D548A6EC0E5C /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74F522114B7A5165BDE50D85BF55C1D /* FileStorage.swift */; };
-		CCC8655D6B5E848EF06CF1F6E93F0F44 /* NSLock+Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1208F311892642E653F6FEC0D9419E6 /* NSLock+Lock.swift */; };
-		D69EA47288F470466B462ADCA2EC3A0E /* CELLULAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F43525B7DD870A82D0EDDD068A6185C3 /* CELLULAR-dummy.m */; };
-		D9F86EBFC14A6A5EB06F50C20E6849B6 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D69CE1E22789D780A086F2F1B6874 /* Manager.swift */; };
+		40C6708314740D22070BBD45F0E4D4A0 /* DispatchLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A76551667907C85DC5E5F71D22874 /* DispatchLock.swift */; };
+		44824B5B7D1E1652CD109C095372C9D8 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB74992E9F1EB89F64C7DC5CC0D0B /* Manager.swift */; };
+		5228E3D3DD29E90956BB2C35E5386C33 /* CachedStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E9B94A9DB5FC6732761084604E44F /* CachedStorage.swift */; };
+		5AE7268EBCBFAA840D57C752EBB6DB23 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0BBAEA94D884F8199DE1F083630203 /* Encoder.swift */; };
+		5CFBBF31021E2599D9DBF5FB943608CE /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E609BB9B43736E8CE8E2DA03276BE8F /* UserDefaultsStorage.swift */; };
+		9ABE0CE7EEC00FA7EF305988D01C1D94 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17428BEEBF4F221B7340549C6A51EF5F /* FileStorage.swift */; };
+		9E3EB3D678D2D85EFB7FD9A68A5D2CEA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA132DF1625042D5878659EC581E552A /* Error.swift */; };
+		B91805C8C23FE33EB6AFD215B59CE998 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB9BC9731B0F4CC8A8A52A522534EB /* Storage.swift */; };
+		B9D28C23A720AB8DE4D0A035D642CA17 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1DBF0FE3FC56C51960A4FD6B0462B /* Result.swift */; };
+		BA27F8892DD63EC2422EE571E90FF71C /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF753EF2CA703F959C984C2D4334A44 /* Lock.swift */; };
+		BB298F8A3C8D01C75D633045DBFE6E6F /* NativeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C6BC0B45BCB40E881877A7F4E23115 /* NativeDecoder.swift */; };
+		CCC8655D6B5E848EF06CF1F6E93F0F44 /* NSLock+Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B8CB49AF9EDC40915AA90D0EF22A62 /* NSLock+Lock.swift */; };
+		D69EA47288F470466B462ADCA2EC3A0E /* CELLULAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2512DD2F3B93AC15FFBF4E4F725C61 /* CELLULAR-dummy.m */; };
+		E2A0E416E212DB726497ACC06003BA11 /* NativeEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83241D48127ABEBFFC652D71EF741B3A /* NativeEncoder.swift */; };
 		E74883964ACA341F6D0276B74E94158E /* CELLULAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9581C70409527F4670B187389F7CEB /* CELLULAR.framework */; };
 		F0A682AC50A2EBCBF7F7283A76A9F080 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F89A03F30D8EB07F739376B152BCADF0 /* CellularLocalStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F703941C6BA8C701DC3C9DCB819C559 /* CellularLocalStorage-dummy.m */; };
+		F8DB51A40C9CCA7DEF335159CE314B09 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7239AC3592474843A4CFE5CC92CDBB /* Decoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,51 +61,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004D477679FF2BD0762AA7C20B81F596 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Sources/Locking/Protected.swift; sourceTree = "<group>"; };
 		044AA3E23F71470C9B5F50D44720EA0D /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		065383F368FB47A96A0BFB3E54058E69 /* CELLULAR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CELLULAR-umbrella.h"; sourceTree = "<group>"; };
-		0B11F1B0E8F1AFE4C99353E0759D3AD4 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Source/Core/Encoder/Encoder.swift; sourceTree = "<group>"; };
-		0EC427A80F7588248B69FD478E606CB6 /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CELLULAR.framework; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F703941C6BA8C701DC3C9DCB819C559 /* CellularLocalStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CellularLocalStorage-dummy.m"; sourceTree = "<group>"; };
+		0E609BB9B43736E8CE8E2DA03276BE8F /* UserDefaultsStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorage.swift; sourceTree = "<group>"; };
+		0EC427A80F7588248B69FD478E606CB6 /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11434BC759D12F57876FBB74A4775E74 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		13F6C22501A5DBD3915116A4F27FE14B /* CellularLocalStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CellularLocalStorage-umbrella.h"; sourceTree = "<group>"; };
 		15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		175E3F342C7CD94D68B026E798315E36 /* AsyncManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncManager.swift; path = Source/Core/Manager/AsyncManager.swift; sourceTree = "<group>"; };
+		17428BEEBF4F221B7340549C6A51EF5F /* FileStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
 		1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		1D72FB794D4BCE5AD42A53B49EDE1102 /* CELLULAR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CELLULAR-prefix.pch"; sourceTree = "<group>"; };
-		2143B69BC22A9BC676F6CE09369FFF24 /* DispatchLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchLock.swift; path = Sources/Locking/DispatchLock.swift; sourceTree = "<group>"; };
+		1E7239AC3592474843A4CFE5CC92CDBB /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		1FF753EF2CA703F959C984C2D4334A44 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = Sources/Locking/Lock.swift; sourceTree = "<group>"; };
+		21E359D6C692158B05CE5ECEE97DA94C /* CellularLocalStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CellularLocalStorage-dummy.m"; sourceTree = "<group>"; };
 		25A37D4D536CC5988A439441117C41F4 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		270FE8727D195000F671298044596EB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C311512847F926C55BEB7D6EE55D81F /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5A76551667907C85DC5E5F71D22874 /* DispatchLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchLock.swift; path = Sources/Locking/DispatchLock.swift; sourceTree = "<group>"; };
+		2C311512847F926C55BEB7D6EE55D81F /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA8A07861134DA11C96E278302C0070 /* CellularLocalStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CellularLocalStorage-prefix.pch"; sourceTree = "<group>"; };
+		3947AC191C87A8EF3C9393B79A4DAD35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3ADE9E5655579DB0F79DC9C80758673C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C2120DA9426ACF3F37901DAB3BB259A /* CellularLocalStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CellularLocalStorage.modulemap; sourceTree = "<group>"; };
+		3AFCB74992E9F1EB89F64C7DC5CC0D0B /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		3F3EFEBDE6702DEFDFFF9D5C6DBC3773 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		51473274B8CC9B01F279DC713AA2AC08 /* CachedStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedStorage.swift; path = Source/Core/Storage/CachedStorage.swift; sourceTree = "<group>"; };
-		59691B41412E902B0042C4F55C067FE6 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Source/Core/Storage/MemoryStorage.swift; sourceTree = "<group>"; };
 		5B81C04F8E84EAE60AE15C8695031A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C912FD4495692E512A9DB9E7C09F2A5 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Core/Error/Error.swift; sourceTree = "<group>"; };
-		8489F8BE373EADEEC33B548E890CE99B /* NativeDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeDecoder.swift; path = Source/Core/Decoder/NativeDecoder.swift; sourceTree = "<group>"; };
-		851F11DC80CF425982985A225B4BC6B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		862D69CE1E22789D780A086F2F1B6874 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Core/Manager/Manager.swift; sourceTree = "<group>"; };
-		8E571EAD366AC3D8AEF7B84ADAF2D2B1 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Sources/Locking/Protected.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96DD05E3DD832CFBA3E9F1F6D1706D3C /* LocalStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocalStorage.framework; path = CellularLocalStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1208F311892642E653F6FEC0D9419E6 /* NSLock+Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLock+Lock.swift"; path = "Sources/Locking/NSLock+Lock.swift"; sourceTree = "<group>"; };
+		5D6E9B94A9DB5FC6732761084604E44F /* CachedStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CachedStorage.swift; sourceTree = "<group>"; };
+		5F8B12522571BFB85428D8C0571131B1 /* CellularLocalStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CellularLocalStorage.modulemap; sourceTree = "<group>"; };
+		61C6BC0B45BCB40E881877A7F4E23115 /* NativeDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeDecoder.swift; sourceTree = "<group>"; };
+		6B4FD4E9F3026C2FA6620190B55F5B1C /* CellularLocalStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CellularLocalStorage.xcconfig; sourceTree = "<group>"; };
+		6B7FC94CD308FA28B16D026578E1812C /* CELLULAR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CELLULAR-umbrella.h"; sourceTree = "<group>"; };
+		78446D8C5B636B147827505168C87BC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2512DD2F3B93AC15FFBF4E4F725C61 /* CELLULAR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CELLULAR-dummy.m"; sourceTree = "<group>"; };
+		81C1DBF0FE3FC56C51960A4FD6B0462B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result/Result.swift; sourceTree = "<group>"; };
+		83241D48127ABEBFFC652D71EF741B3A /* NativeEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeEncoder.swift; sourceTree = "<group>"; };
+		83FEFF6803D24CD8A452AE86DB672A1A /* AsyncManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsyncManager.swift; sourceTree = "<group>"; };
+		913B3D2ADB17C8E80892DB9CEB2BEBEB /* CELLULAR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CELLULAR.modulemap; sourceTree = "<group>"; };
+		9244C7230505E74E65F68084758C0911 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948AC7F02EBF621485683F2D1152C9F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		96A72C357438143E71C90DDDA6CBBEFF /* CellularLocalStorage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CellularLocalStorage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DD05E3DD832CFBA3E9F1F6D1706D3C /* LocalStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9091A5E6261E19CAE56610F514FDF1 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
 		A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		A82B39B17731A1CDAFA6D8D7FF2FCD43 /* CellularLocalStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CellularLocalStorage-prefix.pch"; sourceTree = "<group>"; };
-		A8820E5E8B98E21C82A05628E4402506 /* NativeEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEncoder.swift; path = Source/Core/Encoder/NativeEncoder.swift; sourceTree = "<group>"; };
-		AC54D6A0433D47BAA0CF251C736F92A6 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Source/Core/Decoder/Decoder.swift; sourceTree = "<group>"; };
-		B10530D421E78417F0897ADC6E9ABEB9 /* UserDefaultsStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsStorage.swift; path = Source/Core/Storage/UserDefaultsStorage.swift; sourceTree = "<group>"; };
-		B584232B217EBC3817731A5C709C20BC /* CellularLocalStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CellularLocalStorage-umbrella.h"; sourceTree = "<group>"; };
-		B74F522114B7A5165BDE50D85BF55C1D /* FileStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileStorage.swift; path = Source/Core/Storage/FileStorage.swift; sourceTree = "<group>"; };
 		BB9581C70409527F4670B187389F7CEB /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDD5E4B0014456E0E43D33786F43AC82 /* CellularLocalStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CellularLocalStorage.xcconfig; sourceTree = "<group>"; };
-		C939431A91E29CD1875B01BCAADE9189 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = Sources/Locking/Lock.swift; sourceTree = "<group>"; };
+		BC0BBAEA94D884F8199DE1F083630203 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
+		CA132DF1625042D5878659EC581E552A /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		D2257C6A5CBC194B7E3047EE2619DE2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF2568E2DD32D214BBE12CF07F227D25 /* CELLULAR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CELLULAR.modulemap; sourceTree = "<group>"; };
-		E91DB061C4B4ED2E7557E2841C245BFF /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Source/Core/Storage/Storage.swift; sourceTree = "<group>"; };
-		ED2D630A70D10C7A517F7AB105B8C8EA /* CELLULAR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CELLULAR.xcconfig; sourceTree = "<group>"; };
+		DB371D33E1B432F736AC72A34AD5A347 /* CELLULAR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CELLULAR-prefix.pch"; sourceTree = "<group>"; };
+		E8277345AA44227DAECB0A61DDB6B534 /* CELLULAR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CELLULAR.xcconfig; sourceTree = "<group>"; };
 		EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F43525B7DD870A82D0EDDD068A6185C3 /* CELLULAR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CELLULAR-dummy.m"; sourceTree = "<group>"; };
-		FF5B85A1457B7D7204082F3287BFBD2E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result/Result.swift; sourceTree = "<group>"; };
+		F2BB9BC9731B0F4CC8A8A52A522534EB /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		F6B8CB49AF9EDC40915AA90D0EF22A62 /* NSLock+Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLock+Lock.swift"; path = "Sources/Locking/NSLock+Lock.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016707266EFA6CB043EC3E13EBCC2742 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99D0CEE120BCEEC1B86BBC238A77F418 /* CellularLocalStorage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0776DEF0204C139EA90E10BAC1AC02EA /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				BC0BBAEA94D884F8199DE1F083630203 /* Encoder.swift */,
+				83241D48127ABEBFFC652D71EF741B3A /* NativeEncoder.swift */,
+			);
+			name = Encoder;
+			path = Source/Core/Encoder;
+			sourceTree = "<group>";
+		};
+		18D164102FC2F6686933C2BD346983EE /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CA132DF1625042D5878659EC581E552A /* Error.swift */,
+			);
+			name = Error;
+			path = Source/Core/Error;
+			sourceTree = "<group>";
+		};
 		1B5ECB992A56AE0C70DC72D88BB90B05 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,57 +185,41 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		2B7EDC2DDC23FFDC8F4FB35F63B5E6F1 /* Support Files */ = {
+		20D91C780DD71CBB1D11EA8E664511A6 /* Decoder */ = {
 			isa = PBXGroup;
 			children = (
-				DF2568E2DD32D214BBE12CF07F227D25 /* CELLULAR.modulemap */,
-				ED2D630A70D10C7A517F7AB105B8C8EA /* CELLULAR.xcconfig */,
-				F43525B7DD870A82D0EDDD068A6185C3 /* CELLULAR-dummy.m */,
-				1D72FB794D4BCE5AD42A53B49EDE1102 /* CELLULAR-prefix.pch */,
-				065383F368FB47A96A0BFB3E54058E69 /* CELLULAR-umbrella.h */,
-				270FE8727D195000F671298044596EB6 /* Info.plist */,
+				1E7239AC3592474843A4CFE5CC92CDBB /* Decoder.swift */,
+				61C6BC0B45BCB40E881877A7F4E23115 /* NativeDecoder.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CELLULAR";
+			name = Decoder;
+			path = Source/Core/Decoder;
 			sourceTree = "<group>";
 		};
-		3E1049B3C1E35422AB0B054D18F474A9 /* CELLULAR */ = {
+		2815F0DAFD0CBEC829919B5E0DCFA51E /* Result */ = {
 			isa = PBXGroup;
 			children = (
-				5E2E2190028C1E9AE0371CA1DD26A099 /* Locking */,
-				DFC64330E12CE95C87265B32D05E801B /* Result */,
-				2B7EDC2DDC23FFDC8F4FB35F63B5E6F1 /* Support Files */,
+				81C1DBF0FE3FC56C51960A4FD6B0462B /* Result.swift */,
 			);
-			name = CELLULAR;
-			path = CELLULAR;
+			name = Result;
 			sourceTree = "<group>";
 		};
-		55F2D2D815C690E7D1B15F2031F09718 /* Core */ = {
+		28B929B6EC3D5FA3A173F46E0223B190 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				175E3F342C7CD94D68B026E798315E36 /* AsyncManager.swift */,
-				51473274B8CC9B01F279DC713AA2AC08 /* CachedStorage.swift */,
-				AC54D6A0433D47BAA0CF251C736F92A6 /* Decoder.swift */,
-				0B11F1B0E8F1AFE4C99353E0759D3AD4 /* Encoder.swift */,
-				6C912FD4495692E512A9DB9E7C09F2A5 /* Error.swift */,
-				B74F522114B7A5165BDE50D85BF55C1D /* FileStorage.swift */,
-				862D69CE1E22789D780A086F2F1B6874 /* Manager.swift */,
-				59691B41412E902B0042C4F55C067FE6 /* MemoryStorage.swift */,
-				8489F8BE373EADEEC33B548E890CE99B /* NativeDecoder.swift */,
-				A8820E5E8B98E21C82A05628E4402506 /* NativeEncoder.swift */,
-				E91DB061C4B4ED2E7557E2841C245BFF /* Storage.swift */,
-				B10530D421E78417F0897ADC6E9ABEB9 /* UserDefaultsStorage.swift */,
+				83FEFF6803D24CD8A452AE86DB672A1A /* AsyncManager.swift */,
+				3AFCB74992E9F1EB89F64C7DC5CC0D0B /* Manager.swift */,
 			);
-			name = Core;
+			name = Manager;
+			path = Source/Core/Manager;
 			sourceTree = "<group>";
 		};
-		5E2E2190028C1E9AE0371CA1DD26A099 /* Locking */ = {
+		318D9F69E99287960380783409ADC276 /* Locking */ = {
 			isa = PBXGroup;
 			children = (
-				2143B69BC22A9BC676F6CE09369FFF24 /* DispatchLock.swift */,
-				C939431A91E29CD1875B01BCAADE9189 /* Lock.swift */,
-				A1208F311892642E653F6FEC0D9419E6 /* NSLock+Lock.swift */,
-				8E571EAD366AC3D8AEF7B84ADAF2D2B1 /* Protected.swift */,
+				2B5A76551667907C85DC5E5F71D22874 /* DispatchLock.swift */,
+				1FF753EF2CA703F959C984C2D4334A44 /* Lock.swift */,
+				F6B8CB49AF9EDC40915AA90D0EF22A62 /* NSLock+Lock.swift */,
+				004D477679FF2BD0762AA7C20B81F596 /* Protected.swift */,
 			);
 			name = Locking;
 			sourceTree = "<group>";
@@ -218,18 +232,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		756A1772C22A55EE8D1591EDA3AA5C80 /* Support Files */ = {
+		73ED21B6A86F89026350DEE08604B719 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3C2120DA9426ACF3F37901DAB3BB259A /* CellularLocalStorage.modulemap */,
-				BDD5E4B0014456E0E43D33786F43AC82 /* CellularLocalStorage.xcconfig */,
-				0F703941C6BA8C701DC3C9DCB819C559 /* CellularLocalStorage-dummy.m */,
-				A82B39B17731A1CDAFA6D8D7FF2FCD43 /* CellularLocalStorage-prefix.pch */,
-				B584232B217EBC3817731A5C709C20BC /* CellularLocalStorage-umbrella.h */,
-				851F11DC80CF425982985A225B4BC6B3 /* Info.plist */,
+				96A72C357438143E71C90DDDA6CBBEFF /* CellularLocalStorage.podspec */,
+				948AC7F02EBF621485683F2D1152C9F0 /* LICENSE */,
+				3947AC191C87A8EF3C9393B79A4DAD35 /* README.md */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CellularLocalStorage";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7D9B15F5C4174BE5B886F94722BD017F /* iOS */ = {
@@ -244,21 +254,12 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				016707266EFA6CB043EC3E13EBCC2742 /* Development Pods */,
 				8AB4F44CAFB84ECE3888F20BCA75BC9E /* Frameworks */,
-				DC70DF1D989CD6487A4294A425787D65 /* Pods */,
+				A98CD50C70E9CE337764A20AF5795C1D /* Pods */,
 				BBCD8DB26A8C0DD14797A204F9359DC6 /* Products */,
 				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		83D9C98BCD4CA906AA940A3972C7D380 /* CellularLocalStorage */ = {
-			isa = PBXGroup;
-			children = (
-				55F2D2D815C690E7D1B15F2031F09718 /* Core */,
-				756A1772C22A55EE8D1591EDA3AA5C80 /* Support Files */,
-			);
-			name = CellularLocalStorage;
-			path = CellularLocalStorage;
 			sourceTree = "<group>";
 		};
 		8AB4F44CAFB84ECE3888F20BCA75BC9E /* Frameworks */ = {
@@ -268,6 +269,37 @@
 				7D9B15F5C4174BE5B886F94722BD017F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		981AE5143E9E9E567A40766366C6AF58 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				20D91C780DD71CBB1D11EA8E664511A6 /* Decoder */,
+				0776DEF0204C139EA90E10BAC1AC02EA /* Encoder */,
+				18D164102FC2F6686933C2BD346983EE /* Error */,
+				28B929B6EC3D5FA3A173F46E0223B190 /* Manager */,
+				DF194A34E7014C9119EAA50C8A12E1E9 /* Storage */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		99D0CEE120BCEEC1B86BBC238A77F418 /* CellularLocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				981AE5143E9E9E567A40766366C6AF58 /* Core */,
+				73ED21B6A86F89026350DEE08604B719 /* Pod */,
+				DCC3DB3F29A381ACB7DCFBE533A953E2 /* Support Files */,
+			);
+			name = CellularLocalStorage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A98CD50C70E9CE337764A20AF5795C1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E89FB4BFC63B970E121B33AE3AEB204E /* CELLULAR */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BBCD8DB26A8C0DD14797A204F9359DC6 /* Products */ = {
@@ -280,21 +312,55 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC70DF1D989CD6487A4294A425787D65 /* Pods */ = {
+		C8EB5A0F9DFBD5A6B6C0133083E39243 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E1049B3C1E35422AB0B054D18F474A9 /* CELLULAR */,
-				83D9C98BCD4CA906AA940A3972C7D380 /* CellularLocalStorage */,
+				913B3D2ADB17C8E80892DB9CEB2BEBEB /* CELLULAR.modulemap */,
+				E8277345AA44227DAECB0A61DDB6B534 /* CELLULAR.xcconfig */,
+				7E2512DD2F3B93AC15FFBF4E4F725C61 /* CELLULAR-dummy.m */,
+				DB371D33E1B432F736AC72A34AD5A347 /* CELLULAR-prefix.pch */,
+				6B7FC94CD308FA28B16D026578E1812C /* CELLULAR-umbrella.h */,
+				9244C7230505E74E65F68084758C0911 /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/CELLULAR";
 			sourceTree = "<group>";
 		};
-		DFC64330E12CE95C87265B32D05E801B /* Result */ = {
+		DCC3DB3F29A381ACB7DCFBE533A953E2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF5B85A1457B7D7204082F3287BFBD2E /* Result.swift */,
+				5F8B12522571BFB85428D8C0571131B1 /* CellularLocalStorage.modulemap */,
+				6B4FD4E9F3026C2FA6620190B55F5B1C /* CellularLocalStorage.xcconfig */,
+				21E359D6C692158B05CE5ECEE97DA94C /* CellularLocalStorage-dummy.m */,
+				2EA8A07861134DA11C96E278302C0070 /* CellularLocalStorage-prefix.pch */,
+				13F6C22501A5DBD3915116A4F27FE14B /* CellularLocalStorage-umbrella.h */,
+				78446D8C5B636B147827505168C87BC4 /* Info.plist */,
 			);
-			name = Result;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CellularLocalStorage";
+			sourceTree = "<group>";
+		};
+		DF194A34E7014C9119EAA50C8A12E1E9 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				5D6E9B94A9DB5FC6732761084604E44F /* CachedStorage.swift */,
+				17428BEEBF4F221B7340549C6A51EF5F /* FileStorage.swift */,
+				9F9091A5E6261E19CAE56610F514FDF1 /* MemoryStorage.swift */,
+				F2BB9BC9731B0F4CC8A8A52A522534EB /* Storage.swift */,
+				0E609BB9B43736E8CE8E2DA03276BE8F /* UserDefaultsStorage.swift */,
+			);
+			name = Storage;
+			path = Source/Core/Storage;
+			sourceTree = "<group>";
+		};
+		E89FB4BFC63B970E121B33AE3AEB204E /* CELLULAR */ = {
+			isa = PBXGroup;
+			children = (
+				318D9F69E99287960380783409ADC276 /* Locking */,
+				2815F0DAFD0CBEC829919B5E0DCFA51E /* Result */,
+				C8EB5A0F9DFBD5A6B6C0133083E39243 /* Support Files */,
+			);
+			path = CELLULAR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +397,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375D9AFA74F2959A603C24EF700E1625 /* Build configuration list for PBXNativeTarget "CellularLocalStorage" */;
 			buildPhases = (
-				8CEBECDA5F46BCDCE5CF97B931F5111E /* Sources */,
+				9296814073E0E1ACB7518803B84CB761 /* Sources */,
 				4529C1E952B66C590D13E544693B6242 /* Frameworks */,
 				4F8A7982B667B4882E84FA443D0261FB /* Headers */,
 			);
@@ -410,31 +476,31 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8CEBECDA5F46BCDCE5CF97B931F5111E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00D4AB56C82895FD8992EB0B497940D1 /* AsyncManager.swift in Sources */,
-				3B9ED7A932E564B3D5E44C978E68DE39 /* CachedStorage.swift in Sources */,
-				F89A03F30D8EB07F739376B152BCADF0 /* CellularLocalStorage-dummy.m in Sources */,
-				007890A2BD8E264C2678CAC56F856B33 /* Decoder.swift in Sources */,
-				79B4582B06CDFDD4E11FFC97D402B686 /* Encoder.swift in Sources */,
-				4CB224358EEF58519E8A4944E3685AD4 /* Error.swift in Sources */,
-				BE4EC55E5E48CCA94BF3D548A6EC0E5C /* FileStorage.swift in Sources */,
-				D9F86EBFC14A6A5EB06F50C20E6849B6 /* Manager.swift in Sources */,
-				5394A4FD40BEC2BE6C32A00CB99CD60B /* MemoryStorage.swift in Sources */,
-				266E1C0809B10190939B795F85E3F212 /* NativeDecoder.swift in Sources */,
-				29A5D58EEB31B69152A2524BB03BB3B1 /* NativeEncoder.swift in Sources */,
-				470A1C8DD9096FD4EB0225A6946A6823 /* Storage.swift in Sources */,
-				97165EA80AF9FB9723852F66E8C6B0EF /* UserDefaultsStorage.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8E0EEE1DC5D68E0A347B0D14DA66C71E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D4849CF58CB03B2A8C5319946AF30AD /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9296814073E0E1ACB7518803B84CB761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A667B77B61CB4C919312B7C2DF5706 /* AsyncManager.swift in Sources */,
+				5228E3D3DD29E90956BB2C35E5386C33 /* CachedStorage.swift in Sources */,
+				24B20B2162C333D4D997908C34F281E8 /* CellularLocalStorage-dummy.m in Sources */,
+				F8DB51A40C9CCA7DEF335159CE314B09 /* Decoder.swift in Sources */,
+				5AE7268EBCBFAA840D57C752EBB6DB23 /* Encoder.swift in Sources */,
+				9E3EB3D678D2D85EFB7FD9A68A5D2CEA /* Error.swift in Sources */,
+				9ABE0CE7EEC00FA7EF305988D01C1D94 /* FileStorage.swift in Sources */,
+				44824B5B7D1E1652CD109C095372C9D8 /* Manager.swift in Sources */,
+				3AED9EC3188A643D7206E9FD036EB19A /* MemoryStorage.swift in Sources */,
+				BB298F8A3C8D01C75D633045DBFE6E6F /* NativeDecoder.swift in Sources */,
+				E2A0E416E212DB726497ACC06003BA11 /* NativeEncoder.swift in Sources */,
+				B91805C8C23FE33EB6AFD215B59CE998 /* Storage.swift in Sources */,
+				5CFBBF31021E2599D9DBF5FB943608CE /* UserDefaultsStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +543,7 @@
 /* Begin XCBuildConfiguration section */
 		0518B6E32D6EF720736EFF7DBC469F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED2D630A70D10C7A517F7AB105B8C8EA /* CELLULAR.xcconfig */;
+			baseConfigurationReference = E8277345AA44227DAECB0A61DDB6B534 /* CELLULAR.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -605,6 +671,38 @@
 			};
 			name = Release;
 		};
+		558A156D06971EEA2798A34CBA383FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4FD4E9F3026C2FA6620190B55F5B1C /* CellularLocalStorage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CellularLocalStorage/CellularLocalStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CellularLocalStorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CellularLocalStorage/CellularLocalStorage.modulemap";
+				PRODUCT_MODULE_NAME = LocalStorage;
+				PRODUCT_NAME = LocalStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		574B1B4F626078444CC810CD546DF857 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */;
@@ -640,9 +738,42 @@
 			};
 			name = Debug;
 		};
+		76D5A5240D125B1E247B25CE1E062C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4FD4E9F3026C2FA6620190B55F5B1C /* CellularLocalStorage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CellularLocalStorage/CellularLocalStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CellularLocalStorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CellularLocalStorage/CellularLocalStorage.modulemap";
+				PRODUCT_MODULE_NAME = LocalStorage;
+				PRODUCT_NAME = LocalStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7E36B51A6121191C94B3D0B1265721A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED2D630A70D10C7A517F7AB105B8C8EA /* CELLULAR.xcconfig */;
+			baseConfigurationReference = E8277345AA44227DAECB0A61DDB6B534 /* CELLULAR.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -666,71 +797,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A5D014FC10318DAD2D631A97D8666887 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD5E4B0014456E0E43D33786F43AC82 /* CellularLocalStorage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CellularLocalStorage/CellularLocalStorage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CellularLocalStorage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CellularLocalStorage/CellularLocalStorage.modulemap";
-				PRODUCT_MODULE_NAME = LocalStorage;
-				PRODUCT_NAME = LocalStorage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ABBA2231ED0A9616306D3E4AACB7EBA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD5E4B0014456E0E43D33786F43AC82 /* CellularLocalStorage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CellularLocalStorage/CellularLocalStorage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CellularLocalStorage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CellularLocalStorage/CellularLocalStorage.modulemap";
-				PRODUCT_MODULE_NAME = LocalStorage;
-				PRODUCT_NAME = LocalStorage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -811,8 +877,8 @@
 		375D9AFA74F2959A603C24EF700E1625 /* Build configuration list for PBXNativeTarget "CellularLocalStorage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5D014FC10318DAD2D631A97D8666887 /* Debug */,
-				ABBA2231ED0A9616306D3E4AACB7EBA7 /* Release */,
+				558A156D06971EEA2798A34CBA383FB3 /* Debug */,
+				76D5A5240D125B1E247B25CE1E062C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
