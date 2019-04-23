@@ -422,7 +422,6 @@
 				C42BAC641E5B4FEB000E2FCE /* Sources */,
 				C42BAC651E5B4FEB000E2FCE /* Frameworks */,
 				C42BAC661E5B4FEB000E2FCE /* Resources */,
-				837349EACAF4957FC54AF995 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -605,28 +604,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		837349EACAF4957FC54AF995 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CellularLocalStorageTests/Pods-CellularLocalStorageTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CELLULAR-iOS/CELLULAR.framework",
-				"${BUILT_PRODUCTS_DIR}/Unbox-iOS/Unbox.framework",
-				"${BUILT_PRODUCTS_DIR}/Wrap-iOS/Wrap.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CELLULAR.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Wrap.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellularLocalStorageTests/Pods-CellularLocalStorageTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		927784B0F4E066E3EE95DFA4 /* [CP] Check Pods Manifest.lock */ = {
