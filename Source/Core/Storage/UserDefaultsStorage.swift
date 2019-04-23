@@ -99,7 +99,7 @@ public final class UserDefaultsStorage: Storage {
         var storedModels = try all(using: decoder)
 
         /// return nil if there is no instance matching predicate
-        guard let indexToRemove = storedModels.index(where: predicate) else { return nil }
+        guard let indexToRemove = storedModels.firstIndex(where: predicate) else { return nil }
 
         // Remove object at given index from stored data list
         // and overwrite storage with new list

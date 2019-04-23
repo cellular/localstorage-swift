@@ -86,7 +86,7 @@ public final class CachedStorage: Storage {
         where T == D.Decodable, T == E.Encodable {
 
         // Remove element from cache
-        if let indexToRemove = try all(using: decoder).index(where: predicate) {
+        if let indexToRemove = try all(using: decoder).firstIndex(where: predicate) {
             cache?.remove(at: indexToRemove)
         }
 
