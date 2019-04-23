@@ -3,23 +3,29 @@ use_frameworks!
 
 def frameworks_pods
     pod 'CELLULAR/Locking', '~> 5.0.0'
-    pod 'SwiftLint', '~> 0.27.0'
+    pod 'SwiftLint', '~> 0.31.0'
     pod 'Unbox', '~> 4.0.0'
     pod 'Wrap', '~> 3.0.0'
 end
 
 target 'CellularLocalStorage iOS' do
-    platform :ios, '10.3'
+  platform :ios, '10.3'
   frameworks_pods
 
-  target 'CellularLocalStorageTests' do
-    inherit! :search_paths  
+  target 'CellularLocalStorageTests iOS' do
+    inherit! :search_paths
+    frameworks_pods
   end
 end
 
 target 'CellularLocalStorage tvOS' do
     platform :tvos, '10.2'
     frameworks_pods
+    
+    target 'CellularLocalStorageTests tvOS' do
+      inherit! :search_paths
+      frameworks_pods
+    end
 end
 
 target 'CellularLocalStorage watchOS' do

@@ -43,9 +43,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C42BAC671E5B4FEB000E2FCE"
-               BuildableName = "CellularLocalStorageTests.xctest"
-               BlueprintName = "CellularLocalStorageTests"
+               BlueprintIdentifier = "C4F786F2226F343E0064CBB0"
+               BuildableName = "CellularLocalStorageTests tvOS.xctest"
+               BlueprintName = "CellularLocalStorageTests tvOS"
                ReferencedContainer = "container:CellularLocalStorage.xcodeproj">
             </BuildableReference>
          </TestableReference>
