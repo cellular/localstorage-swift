@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = "SwiftLint-iOS";
+			productName = "SwiftLint-iOS";
 		};
 		711F41ACB2A23647A7EB5A3BDFBE6228 /* SwiftLint-watchOS */ = {
 			isa = PBXAggregateTarget;
@@ -24,6 +25,7 @@
 			dependencies = (
 			);
 			name = "SwiftLint-watchOS";
+			productName = "SwiftLint-watchOS";
 		};
 		7AB0C4115CD741BBBF5E5F075246CF33 /* SwiftLint-tvOS */ = {
 			isa = PBXAggregateTarget;
@@ -33,6 +35,7 @@
 			dependencies = (
 			);
 			name = "SwiftLint-tvOS";
+			productName = "SwiftLint-tvOS";
 		};
 /* End PBXAggregateTarget section */
 
@@ -318,7 +321,7 @@
 
 /* Begin PBXFileReference section */
 		026A55378233D874CC93739A178BAD52 /* Unbox-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Unbox-iOS.modulemap"; sourceTree = "<group>"; };
-		050ECFE82A548FC8FB21D9BEF02F2D5A /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CELLULAR.framework; path = "CELLULAR-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050ECFE82A548FC8FB21D9BEF02F2D5A /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0778729501566A033CB85DC2EDD04DB3 /* Array+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Unbox.swift"; path = "Sources/Unbox/Array+Unbox.swift"; sourceTree = "<group>"; };
 		0817F36DCAA105D53C69B8A649BC9BC4 /* Pods-CellularLocalStorage tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CellularLocalStorage tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0AF039D6A2AD8B8D5692BBF4096B5E40 /* Decimal+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Decimal+Unbox.swift"; path = "Sources/Unbox/Decimal+Unbox.swift"; sourceTree = "<group>"; };
@@ -346,7 +349,7 @@
 		3EAC9D78B29092A07315C55E3066341E /* CELLULAR-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CELLULAR-watchOS-umbrella.h"; path = "../CELLULAR-watchOS/CELLULAR-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		3F0DEE8D2382F68E9EA2C150D4C3673A /* Pods-CellularLocalStorage watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CellularLocalStorage watchOS-dummy.m"; sourceTree = "<group>"; };
 		413F0F253EB640EF896C7A026D5310A1 /* UnboxableByTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableByTransform.swift; path = Sources/Unbox/UnboxableByTransform.swift; sourceTree = "<group>"; };
-		4330EACDED27438621727F824F6E682C /* Wrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Wrap.framework; path = "Wrap-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4330EACDED27438621727F824F6E682C /* Wrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45212978BAA5D3D0D150EC3E3F75C490 /* DispatchLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchLock.swift; path = Sources/Locking/DispatchLock.swift; sourceTree = "<group>"; };
 		452A34C0369D0A05EAF4441316A25202 /* Unbox-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Unbox-iOS.xcconfig"; sourceTree = "<group>"; };
 		46958E7EDB37E822CD62C0E84F50C420 /* Unbox-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Unbox-watchOS-Info.plist"; path = "../Unbox-watchOS/Unbox-watchOS-Info.plist"; sourceTree = "<group>"; };
@@ -359,7 +362,7 @@
 		488E729A37310DBE0FA9503C493B25D9 /* Pods-CellularLocalStorage watchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CellularLocalStorage watchOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A9A998FE52F2D5C45C0669226EDDE43 /* Wrap-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Wrap-iOS-Info.plist"; sourceTree = "<group>"; };
 		4B567050CBF3D99EF38BB9FC42AFA16D /* Pods-CellularLocalStorage iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CellularLocalStorage iOS-Info.plist"; sourceTree = "<group>"; };
-		4C7FB33665CC16A638D1A8B98F3CA8BB /* Wrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Wrap.framework; path = "Wrap-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7FB33665CC16A638D1A8B98F3CA8BB /* Wrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D17B4071BF8F3080211946C40DEDD7F /* Wrap-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Wrap-watchOS-Info.plist"; path = "../Wrap-watchOS/Wrap-watchOS-Info.plist"; sourceTree = "<group>"; };
 		4EFECB4E49B9A4387665F9214724EDCA /* Int64+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int64+Unbox.swift"; path = "Sources/Unbox/Int64+Unbox.swift"; sourceTree = "<group>"; };
 		4F1714DE600B26D86406F8F3336E3A1F /* Pods-CellularLocalStorage iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CellularLocalStorage iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -380,32 +383,32 @@
 		65FDC0D40B783D99C1EDE6AF23EC1EBD /* Pods-CellularLocalStorage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CellularLocalStorage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		66E17150132ED89DF0DF0A543A652584 /* Pods-CellularLocalStorage watchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CellularLocalStorage watchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		673036D58425F081F0ACB267ED08E6DA /* Wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wrap.swift; path = Sources/Wrap.swift; sourceTree = "<group>"; };
-		67CB1E425B7999E187815E2A64E71E88 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Unbox.framework; path = "Unbox-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CB1E425B7999E187815E2A64E71E88 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		688AD4423107B09421E644B46FD72D24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68B065D9BE32CA149A1364903FD49B98 /* Unbox-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Unbox-watchOS-umbrella.h"; path = "../Unbox-watchOS/Unbox-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		6A5AA039A0B1AA87EC772F2F6A3B3EAA /* Sequence+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Sequence+Unbox.swift"; path = "Sources/Unbox/Sequence+Unbox.swift"; sourceTree = "<group>"; };
 		6B45076FA9C5CFDBA96A710059E294CA /* Unboxer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unboxer.swift; path = Sources/Unbox/Unboxer.swift; sourceTree = "<group>"; };
 		6C4863B322F2847B5D6FFB0BF5FB1123 /* Unbox-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Unbox-watchOS.xcconfig"; path = "../Unbox-watchOS/Unbox-watchOS.xcconfig"; sourceTree = "<group>"; };
 		6ED6CBAC1DB390FFFF4EB03D0CCF3631 /* Pods-CellularLocalStorageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CellularLocalStorageTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		703C544EA6902CCFBDE4919AA30A146D /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Unbox.framework; path = "Unbox-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		703C544EA6902CCFBDE4919AA30A146D /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D26C4E23708E1C862DF90A9858A1FC /* Wrap-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Wrap-watchOS.xcconfig"; path = "../Wrap-watchOS/Wrap-watchOS.xcconfig"; sourceTree = "<group>"; };
 		72D98B0CBE72AF0E52F0FDDF1AFDE99E /* UnboxableEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableEnum.swift; path = Sources/Unbox/UnboxableEnum.swift; sourceTree = "<group>"; };
 		746030244A2F5C60F70606E1E1711394 /* Wrap-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Wrap-tvOS.modulemap"; path = "../Wrap-tvOS/Wrap-tvOS.modulemap"; sourceTree = "<group>"; };
 		74F06A5F5463A44E9705C9EB8863691E /* Pods-CellularLocalStorage tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CellularLocalStorage tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		752A16F4B716CF87400AD8DE0FD9531E /* Wrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Wrap.framework; path = "Wrap-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		752A16F4B716CF87400AD8DE0FD9531E /* Wrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CD000D10B2A31C48AE7AA7B6A6F4E0 /* CELLULAR-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CELLULAR-tvOS.xcconfig"; path = "../CELLULAR-tvOS/CELLULAR-tvOS.xcconfig"; sourceTree = "<group>"; };
 		78CA735FD917F61A6F447D80901459A2 /* Pods-CellularLocalStorage tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CellularLocalStorage tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		7FF26B9FB65D842C207E7FEB6D8525F7 /* Pods-CellularLocalStorage watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CellularLocalStorage watchOS-Info.plist"; sourceTree = "<group>"; };
 		809B0B250827A5077A8444D7DEF618B9 /* Unbox-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Unbox-tvOS-umbrella.h"; path = "../Unbox-tvOS/Unbox-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		80F193B4375F505E8F780E724720687C /* Pods-CellularLocalStorage iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CellularLocalStorage iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		818937EFEFD085AF07EA722941457D43 /* Pods_CellularLocalStorageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CellularLocalStorageTests.framework; path = "Pods-CellularLocalStorageTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		818937EFEFD085AF07EA722941457D43 /* Pods_CellularLocalStorageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82614ED9FDC190C50420D1CA43DE0316 /* NSLock+Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLock+Lock.swift"; path = "Sources/Locking/NSLock+Lock.swift"; sourceTree = "<group>"; };
 		839FB9F3E3A5E238B5D0322437152097 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Sources/Locking/Protected.swift; sourceTree = "<group>"; };
-		84DBA2AA60FB8B2DA29E1688F4B0E5C1 /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CELLULAR.framework; path = "CELLULAR-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DBA2AA60FB8B2DA29E1688F4B0E5C1 /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C45FA62CD60ED381E0C98226FB3E81 /* UnboxableKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableKey.swift; path = Sources/Unbox/UnboxableKey.swift; sourceTree = "<group>"; };
 		88952ECE77289D4F4854E748EABB85F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		88F21F9F739E368C816E7B6E7E8740EB /* CELLULAR-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CELLULAR-iOS-prefix.pch"; sourceTree = "<group>"; };
-		8918F3F89C0319144D01CE7E2FFE35CF /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Unbox.framework; path = "Unbox-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8918F3F89C0319144D01CE7E2FFE35CF /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8B4A86AF863B1A10767BDAC64B680C /* Optional+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Unbox.swift"; path = "Sources/Unbox/Optional+Unbox.swift"; sourceTree = "<group>"; };
 		91C3E2CF5B91D2C943A8EFDA2EBF163D /* Pods-CellularLocalStorage iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CellularLocalStorage iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		91C9748FCE82A055F5CDB2E31A638696 /* CELLULAR-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CELLULAR-watchOS-prefix.pch"; path = "../CELLULAR-watchOS/CELLULAR-watchOS-prefix.pch"; sourceTree = "<group>"; };
@@ -414,8 +417,8 @@
 		969D10B2CA3CCC76B04CE08E863B3C85 /* Unboxable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unboxable.swift; path = Sources/Unbox/Unboxable.swift; sourceTree = "<group>"; };
 		985D38222997A28A9FD2A0BBE0E265A1 /* Pods-CellularLocalStorage watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CellularLocalStorage watchOS.modulemap"; sourceTree = "<group>"; };
 		986CA8821A0B15CEA529BF1D02472C50 /* SwiftLint-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-tvOS.xcconfig"; path = "../SwiftLint-tvOS/SwiftLint-tvOS.xcconfig"; sourceTree = "<group>"; };
-		9A552DF5BE350EDA2BED9703D3666EB7 /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CELLULAR.framework; path = "CELLULAR-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A552DF5BE350EDA2BED9703D3666EB7 /* CELLULAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CELLULAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC6FA846E7E5BF1CD75520B5EE64B4D /* Unbox-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Unbox-iOS-Info.plist"; sourceTree = "<group>"; };
 		9E22584B2837D5A25C55B9ADD6DD03F4 /* Pods-CellularLocalStorage tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CellularLocalStorage tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9E75DA96A6F205F35744F70E4F5E0F70 /* URL+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Unbox.swift"; path = "Sources/Unbox/URL+Unbox.swift"; sourceTree = "<group>"; };
@@ -434,11 +437,11 @@
 		B187B9D0A45631BBEB08FF81675A189B /* UnboxCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxCompatible.swift; path = Sources/Unbox/UnboxCompatible.swift; sourceTree = "<group>"; };
 		B2EE6F49C4E59F7545CFC3CFE61C32F3 /* Int+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Unbox.swift"; path = "Sources/Unbox/Int+Unbox.swift"; sourceTree = "<group>"; };
 		BA12AF8AFB5F725F3F1FC0044FFFD817 /* CELLULAR-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "CELLULAR-watchOS.modulemap"; path = "../CELLULAR-watchOS/CELLULAR-watchOS.modulemap"; sourceTree = "<group>"; };
-		BC0249118DA1929C40B980FB7CE4B5A9 /* Pods_CellularLocalStorage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CellularLocalStorage_iOS.framework; path = "Pods-CellularLocalStorage iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0249118DA1929C40B980FB7CE4B5A9 /* Pods_CellularLocalStorage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00499458B9EC89A8A0861E64E6D6527 /* UnboxPathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxPathNode.swift; path = Sources/Unbox/UnboxPathNode.swift; sourceTree = "<group>"; };
 		C049A1221396ACFD121F7C24658EA6E8 /* Pods-CellularLocalStorage iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CellularLocalStorage iOS-dummy.m"; sourceTree = "<group>"; };
 		C3129CEB837C7543B728953D4C5A155C /* Unbox-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Unbox-tvOS-Info.plist"; path = "../Unbox-tvOS/Unbox-tvOS-Info.plist"; sourceTree = "<group>"; };
-		C4C32D889A6192734672580799B3A554 /* Pods_CellularLocalStorage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CellularLocalStorage_watchOS.framework; path = "Pods-CellularLocalStorage watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C32D889A6192734672580799B3A554 /* Pods_CellularLocalStorage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70103EFE13781AC577E03C6B08832AB /* UnboxableRawType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableRawType.swift; path = Sources/Unbox/UnboxableRawType.swift; sourceTree = "<group>"; };
 		C7EFB469B09E61FBBF97E69175C9FCDD /* Unbox-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Unbox-tvOS.xcconfig"; path = "../Unbox-tvOS/Unbox-tvOS.xcconfig"; sourceTree = "<group>"; };
 		C7F580513376BFCDBEBB11703201861B /* Pods-CellularLocalStorage iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CellularLocalStorage iOS-umbrella.h"; sourceTree = "<group>"; };
@@ -463,7 +466,7 @@
 		E808D7F9FDC2F4F7A84B63AFBC86727A /* Unbox-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Unbox-watchOS.modulemap"; path = "../Unbox-watchOS/Unbox-watchOS.modulemap"; sourceTree = "<group>"; };
 		EA69B97BFA9A306B83EDC012B92F17B4 /* Pods-CellularLocalStorageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CellularLocalStorageTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECD8BAF604AFCC308BBFE5784D5BC793 /* UnboxPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxPath.swift; path = Sources/Unbox/UnboxPath.swift; sourceTree = "<group>"; };
-		ED8261632E3609AB3F6B143D303258BD /* Pods_CellularLocalStorage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CellularLocalStorage_tvOS.framework; path = "Pods-CellularLocalStorage tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8261632E3609AB3F6B143D303258BD /* Pods_CellularLocalStorage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8BB719924B97979A94BBDFBBD18375 /* Pods-CellularLocalStorage iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CellularLocalStorage iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F5038543F6C1C1931ADDC1C671D8346B /* UnboxPathError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxPathError.swift; path = Sources/Unbox/UnboxPathError.swift; sourceTree = "<group>"; };
 		F6C24FEA3F37862655A1DA6E441C1561 /* Unbox-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unbox-iOS-umbrella.h"; sourceTree = "<group>"; };
@@ -642,7 +645,6 @@
 				9E75DA96A6F205F35744F70E4F5E0F70 /* URL+Unbox.swift */,
 				71EFB1CB04F703658B6C8DE9B1D5F0A1 /* Support Files */,
 			);
-			name = Unbox;
 			path = Unbox;
 			sourceTree = "<group>";
 		};
@@ -652,7 +654,6 @@
 				A7F2E2A2605115B3E60F31D3499105E3 /* Locking */,
 				CB9CD73354D97013E34D6D7CC1C902C8 /* Support Files */,
 			);
-			name = CELLULAR;
 			path = CELLULAR;
 			sourceTree = "<group>";
 		};
@@ -776,7 +777,6 @@
 				673036D58425F081F0ACB267ED08E6DA /* Wrap.swift */,
 				75BF62399778695CD1981583FBEA8096 /* Support Files */,
 			);
-			name = Wrap;
 			path = Wrap;
 			sourceTree = "<group>";
 		};
@@ -807,7 +807,6 @@
 			children = (
 				541CC544B01613AD5E1E56342C308249 /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -1291,6 +1290,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -1798,7 +1798,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1944,7 +1944,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2009,7 +2009,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2070,7 +2070,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2197,7 +2197,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2229,7 +2229,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -2291,8 +2291,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 10.2;
@@ -2324,7 +2323,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2356,7 +2355,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2388,7 +2387,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2562,7 +2561,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2593,7 +2592,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -2755,7 +2754,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
