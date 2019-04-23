@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E9086FE73EA6B53BBCA0609 /* Pods_CellularLocalStorageTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0219A057F216B29D2EB6A0 /* Pods_CellularLocalStorageTests_tvOS.framework */; };
-		209695D744AAB25BCB830BB6 /* Pods_CellularLocalStorage_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1FCF3A83ECB67D3CCD67E0 /* Pods_CellularLocalStorage_tvOS.framework */; };
-		4A1F6781C00AA9816053BB4D /* Pods_CellularLocalStorageTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2C177080876541F096CDB6 /* Pods_CellularLocalStorageTests_iOS.framework */; };
-		641972C389831B84A2AAC7F5 /* Pods_CellularLocalStorage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA7CA8FAC397E7A05EADFA8 /* Pods_CellularLocalStorage_iOS.framework */; };
-		B06CB37EC22BD443A3F0B07D /* Pods_CellularLocalStorage_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09422F56EC279BBFEF1A2E33 /* Pods_CellularLocalStorage_watchOS.framework */; };
+		173390D93C0D279C1A47C795 /* Pods_CellularLocalStorage_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0D6F2E218A59EA06B0C0B5 /* Pods_CellularLocalStorage_watchOS.framework */; };
+		775DE459B3130A8AAA61056F /* Pods_CellularLocalStorage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3364F7B6BF07E49030C8D3EA /* Pods_CellularLocalStorage_iOS.framework */; };
 		C42BAC771E5B5046000E2FCE /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46947E81E5B4A1B00875E77 /* Decoder.swift */; };
 		C42BAC791E5B5046000E2FCE /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46947EB1E5B4A1B00875E77 /* Encoder.swift */; };
 		C42BAC7B1E5B5046000E2FCE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46947EE1E5B4A1B00875E77 /* Error.swift */; };
@@ -21,6 +18,7 @@
 		C42BAC831E5B5046000E2FCE /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46947FD1E5B4A1B00875E77 /* Storage.swift */; };
 		C42BAC841E5B5046000E2FCE /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46947FE1E5B4A1B00875E77 /* UserDefaultsStorage.swift */; };
 		C42BAC891E5B5182000E2FCE /* CellularLocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = C42BAC871E5B5182000E2FCE /* CellularLocalStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C494A78A58DA0F536876FA18 /* Pods_CellularLocalStorageTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB535CAA8727E8DE11E2468E /* Pods_CellularLocalStorageTests_iOS.framework */; };
 		C4A2D85E207F8C3500FE4C56 /* NativeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E17FC1F30CF7C00347353 /* NativeDecoder.swift */; };
 		C4A2D85F207F8C3500FE4C56 /* NativeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E17FC1F30CF7C00347353 /* NativeDecoder.swift */; };
 		C4A2D860207F8C3500FE4C56 /* NativeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E17FC1F30CF7C00347353 /* NativeDecoder.swift */; };
@@ -59,7 +57,6 @@
 		C4C84E831E96708C00D53AFD /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46947FE1E5B4A1B00875E77 /* UserDefaultsStorage.swift */; };
 		C4C84E841E96708C00D53AFD /* UnboxDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AADA0C1E5C36EB0026EB7A /* UnboxDecoder.swift */; };
 		C4E325771F31BF28000D2052 /* NativeEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E325761F31BF28000D2052 /* NativeEncoder.swift */; };
-		C4F786DB226F2B3F0064CBB0 /* LocalStorageTests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F786DA226F2B3F0064CBB0 /* LocalStorageTests_iOS.swift */; };
 		C4F786DD226F2B3F0064CBB0 /* LocalStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42BAC601E5B4FEA000E2FCE /* LocalStorage.framework */; };
 		C4F786E5226F2B630064CBB0 /* TestStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* TestStorage.swift */; };
 		C4F786E6226F2B660064CBB0 /* TestDecodingEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E94461E6DC4C60067E67A /* TestDecodingEncoding.swift */; };
@@ -67,7 +64,6 @@
 		C4F786E8226F2B690064CBB0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E94491E6DC5FB0067E67A /* User.swift */; };
 		C4F786E9226F2B690064CBB0 /* TestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B717271F2742890071878D /* TestManager.swift */; };
 		C4F786EA226F2B690064CBB0 /* TestAsyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468E52B1F4EC100009D2D91 /* TestAsyncManager.swift */; };
-		C4F786F6226F343E0064CBB0 /* CellularLocalStorageTests_tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F786F5226F343E0064CBB0 /* CellularLocalStorageTests_tvOS.swift */; };
 		C4F786F8226F343E0064CBB0 /* LocalStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C84E521E966A8E00D53AFD /* LocalStorage.framework */; };
 		C4F78705226F34930064CBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F78704226F34930064CBB0 /* AppDelegate.swift */; };
 		C4F78707226F34930064CBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F78706226F34930064CBB0 /* ViewController.swift */; };
@@ -82,6 +78,8 @@
 		C4FE25E81F4DD52A00391C52 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE25E71F4DD52A00391C52 /* MemoryStorage.swift */; };
 		C4FE25E91F4DD52A00391C52 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE25E71F4DD52A00391C52 /* MemoryStorage.swift */; };
 		C4FE25EA1F4DD52A00391C52 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE25E71F4DD52A00391C52 /* MemoryStorage.swift */; };
+		D5192DBDD591713B77028EA2 /* Pods_CellularLocalStorage_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72D88466C1DDED8F22894DD /* Pods_CellularLocalStorage_tvOS.framework */; };
+		EF4ACEDAF29174F1250A7E0B /* Pods_CellularLocalStorageTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EC70DE22385E1C6F4AE9BC /* Pods_CellularLocalStorageTests_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,25 +114,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09422F56EC279BBFEF1A2E33 /* Pods_CellularLocalStorage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B10F9ED7DD745D67D6DC65E /* Pods-CellularLocalStorage iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage iOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage iOS/Pods-CellularLocalStorage iOS.release.xcconfig"; sourceTree = "<group>"; };
+		0C54E0867C04699BD12B70C9 /* Pods-CellularLocalStorageTests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests iOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests iOS/Pods-CellularLocalStorageTests iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0E0D6F2E218A59EA06B0C0B5 /* Pods_CellularLocalStorage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		113F56FD2074FBF900574D94 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
-		21B127516762A7A083D3B114 /* Pods-CellularLocalStorageTests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests iOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests iOS/Pods-CellularLocalStorageTests iOS.release.xcconfig"; sourceTree = "<group>"; };
-		4BA7CA8FAC397E7A05EADFA8 /* Pods_CellularLocalStorage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A0219A057F216B29D2EB6A0 /* Pods_CellularLocalStorageTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorageTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2C177080876541F096CDB6 /* Pods_CellularLocalStorageTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorageTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		218A69F7B98659244EE7207F /* Pods-CellularLocalStorageTests tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests tvOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3364F7B6BF07E49030C8D3EA /* Pods_CellularLocalStorage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD1E584625D19DB173855BD /* Pods-CellularLocalStorage iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage iOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage iOS/Pods-CellularLocalStorage iOS.release.xcconfig"; sourceTree = "<group>"; };
+		5BFE867D71CA85A6EFC42815 /* Pods-CellularLocalStorage tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage tvOS/Pods-CellularLocalStorage tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0798B6D2134687B8D2E7A9 /* Pods-CellularLocalStorage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage watchOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage watchOS/Pods-CellularLocalStorage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* TestStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStorage.swift; sourceTree = "<group>"; };
-		78BE5E4120F215E5976E90D1 /* Pods-CellularLocalStorageTests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests iOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests iOS/Pods-CellularLocalStorageTests iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		68B5871277A1F2EC778D224C /* Pods-CellularLocalStorage tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage tvOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage tvOS/Pods-CellularLocalStorage tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		7ED0B3BF1E2434AF005870C5 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CellularLocalStorage-enhrmbftdexgggaonryhnufolama/Build/Products/Debug-iphonesimulator/Unbox/Unbox.framework"; sourceTree = "<group>"; };
 		7ED0B3C01E2434AF005870C5 /* Wrap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wrap.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CellularLocalStorage-enhrmbftdexgggaonryhnufolama/Build/Products/Debug-iphonesimulator/Wrap/Wrap.framework"; sourceTree = "<group>"; };
 		7ED0B3C31E2434D0005870C5 /* LocalStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalStorage.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CellularLocalStorage-enhrmbftdexgggaonryhnufolama/Build/Products/Debug-iphonesimulator/CellularLocalStorage/LocalStorage.framework"; sourceTree = "<group>"; };
-		850E9190E286CD187D9BD1E3 /* Pods-CellularLocalStorage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage watchOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage watchOS/Pods-CellularLocalStorage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		85B2E2DE6B3180D7881E7DA3 /* Pods-CellularLocalStorageTests tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		8D1FCF3A83ECB67D3CCD67E0 /* Pods_CellularLocalStorage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FB043BD729E536F57446835 /* Pods-CellularLocalStorage tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage tvOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage tvOS/Pods-CellularLocalStorage tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A51B6E5416FBC22DC676D1DE /* Pods-CellularLocalStorage iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage iOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage iOS/Pods-CellularLocalStorage iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AACAE19DA2B1FC728C1C83DF /* Pods-CellularLocalStorageTests tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests tvOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B4459D23528E40FC46F129D8 /* Pods-CellularLocalStorage watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage watchOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage watchOS/Pods-CellularLocalStorage watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		A614149A8835ED0628956985 /* Pods-CellularLocalStorage watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage watchOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage watchOS/Pods-CellularLocalStorage watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		B72D88466C1DDED8F22894DD /* Pods_CellularLocalStorage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorage_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB535CAA8727E8DE11E2468E /* Pods_CellularLocalStorageTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorageTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00D3C228B79FAAF791C8AA7 /* Pods-CellularLocalStorage iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage iOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage iOS/Pods-CellularLocalStorage iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C421487C1E6DC680009D03B6 /* TestPerformance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPerformance.swift; sourceTree = "<group>"; };
 		C42BAC601E5B4FEA000E2FCE /* LocalStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42BAC871E5B5182000E2FCE /* CellularLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellularLocalStorage.h; sourceTree = "<group>"; };
@@ -166,10 +162,8 @@
 		C4C84E5F1E966ABD00D53AFD /* LocalStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E325761F31BF28000D2052 /* NativeEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeEncoder.swift; sourceTree = "<group>"; };
 		C4F786D8226F2B3F0064CBB0 /* CellularLocalStorageTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CellularLocalStorageTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4F786DA226F2B3F0064CBB0 /* LocalStorageTests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageTests_iOS.swift; sourceTree = "<group>"; };
 		C4F786DC226F2B3F0064CBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F786F3226F343E0064CBB0 /* CellularLocalStorageTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CellularLocalStorageTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4F786F5226F343E0064CBB0 /* CellularLocalStorageTests_tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularLocalStorageTests_tvOS.swift; sourceTree = "<group>"; };
 		C4F786F7226F343E0064CBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F78702226F34930064CBB0 /* CellularLocalStorageTestHost tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CellularLocalStorageTestHost tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F78704226F34930064CBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,7 +172,9 @@
 		C4F7870B226F34950064CBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4F7870D226F34950064CBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FE25E71F4DD52A00391C52 /* MemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
-		F00EBED7DD0A78E34E0AFF12 /* Pods-CellularLocalStorage tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorage tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorage tvOS/Pods-CellularLocalStorage tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E5B51C0EC12F8C9269243379 /* Pods-CellularLocalStorageTests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests iOS.release.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests iOS/Pods-CellularLocalStorageTests iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E8924BE57A32A322E8FE9679 /* Pods-CellularLocalStorageTests tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellularLocalStorageTests tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F7EC70DE22385E1C6F4AE9BC /* Pods_CellularLocalStorageTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellularLocalStorageTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641972C389831B84A2AAC7F5 /* Pods_CellularLocalStorage_iOS.framework in Frameworks */,
+				775DE459B3130A8AAA61056F /* Pods_CellularLocalStorage_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209695D744AAB25BCB830BB6 /* Pods_CellularLocalStorage_tvOS.framework in Frameworks */,
+				D5192DBDD591713B77028EA2 /* Pods_CellularLocalStorage_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06CB37EC22BD443A3F0B07D /* Pods_CellularLocalStorage_watchOS.framework in Frameworks */,
+				173390D93C0D279C1A47C795 /* Pods_CellularLocalStorage_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F786DD226F2B3F0064CBB0 /* LocalStorage.framework in Frameworks */,
-				4A1F6781C00AA9816053BB4D /* Pods_CellularLocalStorageTests_iOS.framework in Frameworks */,
+				C494A78A58DA0F536876FA18 /* Pods_CellularLocalStorageTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F786F8226F343E0064CBB0 /* LocalStorage.framework in Frameworks */,
-				1E9086FE73EA6B53BBCA0609 /* Pods_CellularLocalStorageTests_tvOS.framework in Frameworks */,
+				EF4ACEDAF29174F1250A7E0B /* Pods_CellularLocalStorageTests_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				C46947E51E5B4A1B00875E77 /* Source */,
-				607FACE81AFB9204008FA782 /* Tests */,
-				C4AADA161E5C43390026EB7A /* CellularLocalStorageTestHost */,
-				C4F786D9226F2B3F0064CBB0 /* LocalStorageTests iOS */,
+				607FACE81AFB9204008FA782 /* Shared Tests */,
+				C4AADA161E5C43390026EB7A /* CellularLocalStorageTestHost iOS */,
+				C4F786D9226F2B3F0064CBB0 /* CellularLocalStorageTests iOS */,
 				C4F786F4226F343E0064CBB0 /* CellularLocalStorageTests tvOS */,
 				C4F78703226F34930064CBB0 /* CellularLocalStorageTestHost tvOS */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -271,7 +267,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
+		607FACE81AFB9204008FA782 /* Shared Tests */ = {
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* TestStorage.swift */,
@@ -281,22 +277,22 @@
 				C4B717271F2742890071878D /* TestManager.swift */,
 				C468E52B1F4EC100009D2D91 /* TestAsyncManager.swift */,
 			);
-			path = Tests;
+			path = "Shared Tests";
 			sourceTree = "<group>";
 		};
 		71FE241186EB9D582FB77B3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A51B6E5416FBC22DC676D1DE /* Pods-CellularLocalStorage iOS.debug.xcconfig */,
-				0B10F9ED7DD745D67D6DC65E /* Pods-CellularLocalStorage iOS.release.xcconfig */,
-				F00EBED7DD0A78E34E0AFF12 /* Pods-CellularLocalStorage tvOS.debug.xcconfig */,
-				9FB043BD729E536F57446835 /* Pods-CellularLocalStorage tvOS.release.xcconfig */,
-				850E9190E286CD187D9BD1E3 /* Pods-CellularLocalStorage watchOS.debug.xcconfig */,
-				B4459D23528E40FC46F129D8 /* Pods-CellularLocalStorage watchOS.release.xcconfig */,
-				78BE5E4120F215E5976E90D1 /* Pods-CellularLocalStorageTests iOS.debug.xcconfig */,
-				21B127516762A7A083D3B114 /* Pods-CellularLocalStorageTests iOS.release.xcconfig */,
-				85B2E2DE6B3180D7881E7DA3 /* Pods-CellularLocalStorageTests tvOS.debug.xcconfig */,
-				AACAE19DA2B1FC728C1C83DF /* Pods-CellularLocalStorageTests tvOS.release.xcconfig */,
+				C00D3C228B79FAAF791C8AA7 /* Pods-CellularLocalStorage iOS.debug.xcconfig */,
+				3BD1E584625D19DB173855BD /* Pods-CellularLocalStorage iOS.release.xcconfig */,
+				5BFE867D71CA85A6EFC42815 /* Pods-CellularLocalStorage tvOS.debug.xcconfig */,
+				68B5871277A1F2EC778D224C /* Pods-CellularLocalStorage tvOS.release.xcconfig */,
+				5D0798B6D2134687B8D2E7A9 /* Pods-CellularLocalStorage watchOS.debug.xcconfig */,
+				A614149A8835ED0628956985 /* Pods-CellularLocalStorage watchOS.release.xcconfig */,
+				0C54E0867C04699BD12B70C9 /* Pods-CellularLocalStorageTests iOS.debug.xcconfig */,
+				E5B51C0EC12F8C9269243379 /* Pods-CellularLocalStorageTests iOS.release.xcconfig */,
+				E8924BE57A32A322E8FE9679 /* Pods-CellularLocalStorageTests tvOS.debug.xcconfig */,
+				218A69F7B98659244EE7207F /* Pods-CellularLocalStorageTests tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -396,7 +392,7 @@
 			path = Wrap;
 			sourceTree = "<group>";
 		};
-		C4AADA161E5C43390026EB7A /* CellularLocalStorageTestHost */ = {
+		C4AADA161E5C43390026EB7A /* CellularLocalStorageTestHost iOS */ = {
 			isa = PBXGroup;
 			children = (
 				C4AADA171E5C43390026EB7A /* AppDelegate.swift */,
@@ -406,22 +402,20 @@
 				C4AADA201E5C43390026EB7A /* LaunchScreen.storyboard */,
 				C4AADA231E5C43390026EB7A /* Info.plist */,
 			);
-			path = CellularLocalStorageTestHost;
+			path = "CellularLocalStorageTestHost iOS";
 			sourceTree = "<group>";
 		};
-		C4F786D9226F2B3F0064CBB0 /* LocalStorageTests iOS */ = {
+		C4F786D9226F2B3F0064CBB0 /* CellularLocalStorageTests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C4F786DA226F2B3F0064CBB0 /* LocalStorageTests_iOS.swift */,
 				C4F786DC226F2B3F0064CBB0 /* Info.plist */,
 			);
-			path = "LocalStorageTests iOS";
+			path = "CellularLocalStorageTests iOS";
 			sourceTree = "<group>";
 		};
 		C4F786F4226F343E0064CBB0 /* CellularLocalStorageTests tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				C4F786F5226F343E0064CBB0 /* CellularLocalStorageTests_tvOS.swift */,
 				C4F786F7226F343E0064CBB0 /* Info.plist */,
 			);
 			path = "CellularLocalStorageTests tvOS";
@@ -445,11 +439,11 @@
 				7ED0B3C31E2434D0005870C5 /* LocalStorage.framework */,
 				7ED0B3BF1E2434AF005870C5 /* Unbox.framework */,
 				7ED0B3C01E2434AF005870C5 /* Wrap.framework */,
-				4BA7CA8FAC397E7A05EADFA8 /* Pods_CellularLocalStorage_iOS.framework */,
-				8D1FCF3A83ECB67D3CCD67E0 /* Pods_CellularLocalStorage_tvOS.framework */,
-				09422F56EC279BBFEF1A2E33 /* Pods_CellularLocalStorage_watchOS.framework */,
-				5B2C177080876541F096CDB6 /* Pods_CellularLocalStorageTests_iOS.framework */,
-				5A0219A057F216B29D2EB6A0 /* Pods_CellularLocalStorageTests_tvOS.framework */,
+				3364F7B6BF07E49030C8D3EA /* Pods_CellularLocalStorage_iOS.framework */,
+				B72D88466C1DDED8F22894DD /* Pods_CellularLocalStorage_tvOS.framework */,
+				0E0D6F2E218A59EA06B0C0B5 /* Pods_CellularLocalStorage_watchOS.framework */,
+				BB535CAA8727E8DE11E2468E /* Pods_CellularLocalStorageTests_iOS.framework */,
+				F7EC70DE22385E1C6F4AE9BC /* Pods_CellularLocalStorageTests_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -488,7 +482,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C42BAC751E5B4FEB000E2FCE /* Build configuration list for PBXNativeTarget "CellularLocalStorage iOS" */;
 			buildPhases = (
-				D467C50591DC0B3D7D3EB997 /* [CP] Check Pods Manifest.lock */,
+				937823A9759858A41D77DF39 /* [CP] Check Pods Manifest.lock */,
 				C42BAC5B1E5B4FEA000E2FCE /* Sources */,
 				C42BAC5D1E5B4FEA000E2FCE /* Headers */,
 				C42BAC5C1E5B4FEA000E2FCE /* Frameworks */,
@@ -525,7 +519,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4C84E591E966A8E00D53AFD /* Build configuration list for PBXNativeTarget "CellularLocalStorage tvOS" */;
 			buildPhases = (
-				2D644A03FB9427F37549CE68 /* [CP] Check Pods Manifest.lock */,
+				32352E81CE9583690F73E366 /* [CP] Check Pods Manifest.lock */,
 				C4C84E4D1E966A8E00D53AFD /* Sources */,
 				C4C84E4F1E966A8E00D53AFD /* Headers */,
 				C4C84E4E1E966A8E00D53AFD /* Frameworks */,
@@ -544,7 +538,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4C84E641E966ABD00D53AFD /* Build configuration list for PBXNativeTarget "CellularLocalStorage watchOS" */;
 			buildPhases = (
-				9E85DB487436E1A7719DD4D7 /* [CP] Check Pods Manifest.lock */,
+				0D4A1DB34A4FB228A616EDF7 /* [CP] Check Pods Manifest.lock */,
 				C4C84E5A1E966ABD00D53AFD /* Sources */,
 				C4C84E5C1E966ABD00D53AFD /* Headers */,
 				C4C84E5B1E966ABD00D53AFD /* Frameworks */,
@@ -563,11 +557,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F786E2226F2B3F0064CBB0 /* Build configuration list for PBXNativeTarget "CellularLocalStorageTests iOS" */;
 			buildPhases = (
-				B771EAC54AB23947BB639E37 /* [CP] Check Pods Manifest.lock */,
+				34FE26613FB0BC038C535D88 /* [CP] Check Pods Manifest.lock */,
 				C4F786D4226F2B3F0064CBB0 /* Sources */,
 				C4F786D5226F2B3F0064CBB0 /* Frameworks */,
 				C4F786D6226F2B3F0064CBB0 /* Resources */,
-				6AC1457002DA06636AAD9E58 /* [CP] Embed Pods Frameworks */,
+				EA7F4BBD87AD1A8BDFD79D77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -584,11 +578,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F786FD226F343E0064CBB0 /* Build configuration list for PBXNativeTarget "CellularLocalStorageTests tvOS" */;
 			buildPhases = (
-				86EA263BDD2EA017B4C4751B /* [CP] Check Pods Manifest.lock */,
+				8CEA402113A0C8F9D38A1286 /* [CP] Check Pods Manifest.lock */,
 				C4F786EF226F343E0064CBB0 /* Sources */,
 				C4F786F0226F343E0064CBB0 /* Frameworks */,
 				C4F786F1226F343E0064CBB0 /* Resources */,
-				57A2F5375AEB82D9EB82F797 /* [CP] Embed Pods Frameworks */,
+				F5DFCB7493B449FAD96D461A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -744,7 +738,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D644A03FB9427F37549CE68 /* [CP] Check Pods Manifest.lock */ = {
+		0D4A1DB34A4FB228A616EDF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorage watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32352E81CE9583690F73E366 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -766,7 +782,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		57A2F5375AEB82D9EB82F797 /* [CP] Embed Pods Frameworks */ = {
+		34FE26613FB0BC038C535D88 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -774,25 +790,79 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CELLULAR-tvOS/CELLULAR.framework",
-				"${BUILT_PRODUCTS_DIR}/Unbox-tvOS/Unbox.framework",
-				"${BUILT_PRODUCTS_DIR}/Wrap-tvOS/Wrap.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CELLULAR.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Wrap.framework",
+				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorageTests iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6AC1457002DA06636AAD9E58 /* [CP] Embed Pods Frameworks */ = {
+		8CEA402113A0C8F9D38A1286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorageTests tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		937823A9759858A41D77DF39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorage iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4044B611E5B568400F70468 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		EA7F4BBD87AD1A8BDFD79D77 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -818,7 +888,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CellularLocalStorageTests iOS/Pods-CellularLocalStorageTests iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86EA263BDD2EA017B4C4751B /* [CP] Check Pods Manifest.lock */ = {
+		F5DFCB7493B449FAD96D461A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -826,98 +896,22 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CELLULAR-tvOS/CELLULAR.framework",
+				"${BUILT_PRODUCTS_DIR}/Unbox-tvOS/Unbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Wrap-tvOS/Wrap.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorageTests tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CELLULAR.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Wrap.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9E85DB487436E1A7719DD4D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorage watchOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B771EAC54AB23947BB639E37 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorageTests iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4044B611E5B568400F70468 /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		D467C50591DC0B3D7D3EB997 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CellularLocalStorage iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CellularLocalStorageTests tvOS/Pods-CellularLocalStorageTests tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1000,7 +994,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F786EA226F2B690064CBB0 /* TestAsyncManager.swift in Sources */,
-				C4F786DB226F2B3F0064CBB0 /* LocalStorageTests_iOS.swift in Sources */,
 				C4F786E9226F2B690064CBB0 /* TestManager.swift in Sources */,
 				C4F786E5226F2B630064CBB0 /* TestStorage.swift in Sources */,
 				C4F786E7226F2B690064CBB0 /* TestPerformance.swift in Sources */,
@@ -1014,7 +1007,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F78718226F352D0064CBB0 /* TestAsyncManager.swift in Sources */,
-				C4F786F6226F343E0064CBB0 /* CellularLocalStorageTests_tvOS.swift in Sources */,
 				C4F78717226F352D0064CBB0 /* TestManager.swift in Sources */,
 				C4F78713226F352D0064CBB0 /* TestStorage.swift in Sources */,
 				C4F78715226F352D0064CBB0 /* TestPerformance.swift in Sources */,
@@ -1139,7 +1131,6 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
 		};
@@ -1189,14 +1180,13 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		C42BAC711E5B4FEB000E2FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A51B6E5416FBC22DC676D1DE /* Pods-CellularLocalStorage iOS.debug.xcconfig */;
+			baseConfigurationReference = C00D3C228B79FAAF791C8AA7 /* Pods-CellularLocalStorage iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1210,7 +1200,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorage;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.components.ios.CellularLocalStorage-iOS";
 				PRODUCT_NAME = LocalStorage;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1222,7 +1212,7 @@
 		};
 		C42BAC721E5B4FEB000E2FCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B10F9ED7DD745D67D6DC65E /* Pods-CellularLocalStorage iOS.release.xcconfig */;
+			baseConfigurationReference = 3BD1E584625D19DB173855BD /* Pods-CellularLocalStorage iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1235,7 +1225,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorage;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.components.ios.CellularLocalStorage-iOS";
 				PRODUCT_NAME = LocalStorage;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1251,9 +1241,9 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = CellularLocalStorageTestHost/Info.plist;
+				INFOPLIST_FILE = "CellularLocalStorageTestHost iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorageTestHost;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.CellularLocalStorageTestHost-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1266,9 +1256,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				INFOPLIST_FILE = CellularLocalStorageTestHost/Info.plist;
+				INFOPLIST_FILE = "CellularLocalStorageTestHost iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.cellular.components.ios.CellularLocalStorageTestHost;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.CellularLocalStorageTestHost-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1276,7 +1266,7 @@
 		};
 		C4C84E571E966A8E00D53AFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F00EBED7DD0A78E34E0AFF12 /* Pods-CellularLocalStorage tvOS.debug.xcconfig */;
+			baseConfigurationReference = 5BFE867D71CA85A6EFC42815 /* Pods-CellularLocalStorage tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1292,12 +1282,13 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.example.ios.CellularLocalStorage-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.components.ios.CellularLocalStorage-tvOS";
 				PRODUCT_NAME = LocalStorage;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1305,7 +1296,7 @@
 		};
 		C4C84E581E966A8E00D53AFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FB043BD729E536F57446835 /* Pods-CellularLocalStorage tvOS.release.xcconfig */;
+			baseConfigurationReference = 68B5871277A1F2EC778D224C /* Pods-CellularLocalStorage tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1320,11 +1311,12 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.example.ios.CellularLocalStorage-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.components.ios.CellularLocalStorage-tvOS";
 				PRODUCT_NAME = LocalStorage;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1332,7 +1324,7 @@
 		};
 		C4C84E651E966ABD00D53AFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 850E9190E286CD187D9BD1E3 /* Pods-CellularLocalStorage watchOS.debug.xcconfig */;
+			baseConfigurationReference = 5D0798B6D2134687B8D2E7A9 /* Pods-CellularLocalStorage watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1349,7 +1341,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.example.ios.CellularLocalStorage-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.components.ios.CellularLocalStorage-watchOS";
 				PRODUCT_NAME = LocalStorage;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1363,7 +1355,7 @@
 		};
 		C4C84E661E966ABD00D53AFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4459D23528E40FC46F129D8 /* Pods-CellularLocalStorage watchOS.release.xcconfig */;
+			baseConfigurationReference = A614149A8835ED0628956985 /* Pods-CellularLocalStorage watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1379,7 +1371,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.example.ios.CellularLocalStorage-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.components.ios.CellularLocalStorage-watchOS";
 				PRODUCT_NAME = LocalStorage;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1392,7 +1384,7 @@
 		};
 		C4F786E0226F2B3F0064CBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78BE5E4120F215E5976E90D1 /* Pods-CellularLocalStorageTests iOS.debug.xcconfig */;
+			baseConfigurationReference = 0C54E0867C04699BD12B70C9 /* Pods-CellularLocalStorageTests iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1405,11 +1397,11 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "LocalStorageTests iOS/Info.plist";
+				INFOPLIST_FILE = "CellularLocalStorageTests iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.LocalStorageTests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.CellularLocalStorageTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1421,7 +1413,7 @@
 		};
 		C4F786E1226F2B3F0064CBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21B127516762A7A083D3B114 /* Pods-CellularLocalStorageTests iOS.release.xcconfig */;
+			baseConfigurationReference = E5B51C0EC12F8C9269243379 /* Pods-CellularLocalStorageTests iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1433,10 +1425,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "LocalStorageTests iOS/Info.plist";
+				INFOPLIST_FILE = "CellularLocalStorageTests iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.LocalStorageTests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cellular.CellularLocalStorageTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -1447,7 +1439,7 @@
 		};
 		C4F786FB226F343E0064CBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B2E2DE6B3180D7881E7DA3 /* Pods-CellularLocalStorageTests tvOS.debug.xcconfig */;
+			baseConfigurationReference = E8924BE57A32A322E8FE9679 /* Pods-CellularLocalStorageTests tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1475,7 +1467,7 @@
 		};
 		C4F786FC226F343E0064CBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AACAE19DA2B1FC728C1C83DF /* Pods-CellularLocalStorageTests tvOS.release.xcconfig */;
+			baseConfigurationReference = 218A69F7B98659244EE7207F /* Pods-CellularLocalStorageTests tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
