@@ -1,10 +1,10 @@
 
 ![CELLULAR](https://www.cellular.de/cellular-logo.png)
 
-[![Build Status](https://travis-ci.org/cellular/cellular-swift.svg?branch=master)](https://travis-ci.org/cellular/cellular-swift)
+[![Build Status](https://travis-ci.com/cellular/cellular-swift.svg?branch=master)](https://travis-ci.com/cellular/cellular-swift)
 [![Codecov](https://codecov.io/gh/cellular/cellular-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/cellular/cellular-swift)
-[![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Swift Version](https://img.shields.io/badge/swift-4.1-orange.svg)](https://swift.org)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CELLULAR.svg)](https://cocoapods.org/pods/cellular)
+[![Swift Version](https://img.shields.io/badge/swift-4.2-orange.svg)](https://swift.org)
 ![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20macOS%20%7C%20linux-lightgrey.svg)
 
 A collection of Swift utilities that we share across swift-based projects at CELLULAR. It is a standalone module with no external dependencies.
@@ -17,7 +17,8 @@ A collection of Swift utilities that we share across swift-based projects at CEL
 
 ## Codable
 
-There are several extensions on `KeyedDecodingContainer`. Most of which are heavily inspired by [Unbox](https://github.com/JohnSundell/Unbox).
+There are several extensions on `KeyedDecodingContainer`.
+Most of which are heavily inspired by [Unbox](https://github.com/JohnSundell/Unbox).
 
 ###### THE PLANET
 
