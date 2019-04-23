@@ -11,7 +11,7 @@ public final class Manager {
     public let async: AsyncManager
 
     /// Wrapper model to ensure thread safe access to storages
-    fileprivate let protected: Protected<[String: Storage]>
+    private let protected: Protected<[String: Storage]>
 
     // MARK: Init
 
