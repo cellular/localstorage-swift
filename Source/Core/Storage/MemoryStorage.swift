@@ -71,19 +71,19 @@ public final class MemoryStorage: Storage {
     public func remove<T, D: Decoder, E: Encoder>(using decoder: D, encoder: E, where predicate: (T) -> Bool) throws -> T?
         where T == D.Decodable, T == E.Encodable {
 
-            // Make list of stored models mutable to return instance later
-            var storedModels = try all(using: decoder)
+        // Make list of stored models mutable to return instance later
+        var storedModels = try all(using: decoder)
 
-            /// return nil if there is no instance matching predicate
-            guard let indexToRemove = storedModels.index(where: predicate) else { return nil }
+        /// return nil if there is no instance matching predicate
+        guard let indexToRemove = storedModels.firstIndex(where: predicate) else { return nil }
 
-            // Remove object at given index from stored data list
-            // and overwrite storage with new list
-            var storedData = rawData
-            storedData.remove(at: indexToRemove)
-            rawData = storedData
+        // Remove object at given index from stored data list
+        // and overwrite storage with new list
+        var storedData = rawData
+        storedData.remove(at: indexToRemove)
+        rawData = storedData
 
-            return storedModels.remove(at: indexToRemove)
+        return storedModels.remove(at: indexToRemove)
     }
 
     /// Replaces stored data with given list of objects

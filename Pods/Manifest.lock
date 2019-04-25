@@ -1,15 +1,13 @@
 PODS:
-  - CELLULAR/Locking (4.1.0)
-  - CELLULAR/Result (4.1.0)
-  - SwiftLint (0.27.0)
-  - Unbox (2.5.0)
+  - CELLULAR/Locking (5.0)
+  - SwiftLint (0.31.0)
+  - Unbox (4.0.0)
   - Wrap (3.0.0)
 
 DEPENDENCIES:
-  - CELLULAR/Locking (~> 4.1.0)
-  - CELLULAR/Result (~> 4.1.0)
-  - SwiftLint (~> 0.27.0)
-  - Unbox (~> 2.5.0)
+  - CELLULAR/Locking (~> 5.0.0)
+  - SwiftLint (~> 0.31.0)
+  - Unbox (~> 4.0.0)
   - Wrap (~> 3.0.0)
 
 SPEC REPOS:
@@ -20,11 +18,11 @@ SPEC REPOS:
     - Wrap
 
 SPEC CHECKSUMS:
-  CELLULAR: 6af608774a6d7fed3a77b998aac37e5c6750beec
-  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
-  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+  CELLULAR: b3549b2f9035296c3c0a33538f06d6e7b4892db3
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  Unbox: d2677af8fde59a30141e02981b11cb6a0e3b6bc5
   Wrap: 918fdb5157e4f701f9503b2633752d6f94616f84
 
-PODFILE CHECKSUM: 2793819a99d307c527153d26fb3151104fe8cd7b
+PODFILE CHECKSUM: dff8706cb81c8530c29a483960371d70efd38382
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

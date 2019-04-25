@@ -105,8 +105,9 @@ public final class FileStorage: Storage {
         where T == D.Decodable, D: Decoder, E: Encoder, D.Decodable == E.Encodable {
         // Make list of stored models mutable to return instance later
         var storedModels = try all(using: decoder)
+
         /// return nil if there is no instance matching predicate
-        guard let indexToRemove = storedModels.index(where: predicate) else { return nil }
+        guard let indexToRemove = storedModels.firstIndex(where: predicate) else { return nil }
 
         // Remove object at given index from stored data list
         // and overwrite storage with new list

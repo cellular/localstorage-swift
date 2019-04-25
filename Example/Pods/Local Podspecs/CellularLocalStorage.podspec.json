@@ -1,9 +1,9 @@
 {
   "name": "CellularLocalStorage",
-  "swift_version": "4.2",
+  "swift_version": "5.0",
   "module_name": "LocalStorage",
-  "version": "4.2.0",
-  "summary": "Persist and access data safely",
+  "version": "5.0.0",
+  "summary": "Easy to use storage for persisting small data sets",
   "description": "Module for saving data locally",
   "homepage": "www.cellular.de",
   "license": {
@@ -15,23 +15,20 @@
   },
   "source": {
     "git": "https://github.com/cellular/localstorage-swift.git",
-    "tag": "4.2.0"
+    "tag": "5.0.0"
   },
   "platforms": {
-    "ios": "9.0",
-    "tvos": "9.0",
-    "watchos": "2.0"
+    "ios": "10.3",
+    "tvos": "10.2",
+    "watchos": "2.2"
   },
   "default_subspecs": "Core",
   "subspecs": [
     {
       "name": "Core",
       "dependencies": {
-        "CELLULAR/Result": [
-          "~> 4.1.0"
-        ],
         "CELLULAR/Locking": [
-          "~> 4.1.0"
+          "~> 5.0.0"
         ]
       },
       "source_files": "Source/Core/**/*.swift"
@@ -52,7 +49,7 @@
       "name": "Unbox",
       "dependencies": {
         "Unbox": [
-          "~> 2.5.0"
+          "~> 4.0.0"
         ],
         "CellularLocalStorage/Core": [
 

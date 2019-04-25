@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -43,9 +43,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C42BAC671E5B4FEB000E2FCE"
-               BuildableName = "CellularLocalStorageTests.xctest"
-               BlueprintName = "CellularLocalStorageTests"
+               BlueprintIdentifier = "C4F786D7226F2B3F0064CBB0"
+               BuildableName = "CellularLocalStorageTests iOS.xctest"
+               BlueprintName = "CellularLocalStorageTests iOS"
                ReferencedContainer = "container:CellularLocalStorage.xcodeproj">
             </BuildableReference>
          </TestableReference>

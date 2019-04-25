@@ -6,7 +6,7 @@ extension String {
         var randomString: String = ""
 
          (0..<length).forEach { _ in
-            let randomValue = arc4random_uniform(UInt32(base.characters.count))
+            let randomValue = arc4random_uniform(UInt32(base.count))
             randomString += "\(base[base.index(base.startIndex, offsetBy: Int(randomValue))])"
         }
         return randomString

@@ -1,8 +1,26 @@
-![CELLULAR](https://www.cellular.de/cellular-logo.png)
-[![Build Status](https://travis-ci.com/cellular/localstorage-swift.svg?branch=master)](https://travis-ci.com/cellular/localstorage-swift)
-[![codecov](https://codecov.io/gh/cellular/localstorage-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/cellular/localstorage-swift)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CellularLocalStorage.svg)](https://cocoapods.org/pods/CellularLocalStorage)
-[![Swift Version](https://img.shields.io/badge/swift-4.2-orange.svg)](https://swift.org)
+<!-- markdownlint-disable MD002 MD033 MD041 -->
+<h1 align="center">
+  <a href="https://cellular.de">
+    <img src="./.github/cellular.svg" width="300" max-width="50%">
+  </a>
+  <br>LocalStorage<br>
+
+<p align="center">
+    <a href="https://swift.org">
+        <img src="https://img.shields.io/badge/swift-5.0-orange.svg?style=flat" alt="Swift Version">
+    </a>
+    <a href="http://travis-ci.com/cellular/localstorage-swift/">
+        <img src="https://img.shields.io/travis/com/cellular/localstorage-swift.svg" alt="Travis Build">
+    </a>
+    <a href="https://codecov.io/gh/cellular/localStorage-swift">
+        <img src="https://codecov.io/gh/cellular/localStorage-swift/branch/master/graph/badge.svg" alt="Coverage Report">
+    </a>
+    <a href="https://cocoapods.org/pods/CellularLocalStorage">
+        <img src="https://img.shields.io/cocoapods/v/CellularLocalStorage.svg" alt="CocoaPods Compatible">
+    </a>    
+</p>
+
+<!-- markdownlint-enable MD033 -->
 
 ## Example
 

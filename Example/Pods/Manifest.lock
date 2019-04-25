@@ -1,13 +1,10 @@
 PODS:
-  - CELLULAR/Locking (4.1.0)
-  - CELLULAR/Result (4.1.0)
-  - CellularLocalStorage/Core (4.2.0):
-    - CELLULAR/Locking (~> 4.1.0)
-    - CELLULAR/Result (~> 4.1.0)
+  - CELLULAR/Locking (5.0)
+  - CellularLocalStorage/Core (5.0.0):
+    - CELLULAR/Locking (~> 5.0.0)
 
 DEPENDENCIES:
-  - CELLULAR/Locking (~> 4.1.0)
-  - CELLULAR/Result (~> 4.1.0)
+  - CELLULAR/Locking (~> 5.0.0)
   - CellularLocalStorage/Core (from `../`)
 
 SPEC REPOS:
@@ -19,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CELLULAR: 6af608774a6d7fed3a77b998aac37e5c6750beec
-  CellularLocalStorage: a924b8eba604ee4bfbf2ced747521f654f5d6e10
+  CELLULAR: b3549b2f9035296c3c0a33538f06d6e7b4892db3
+  CellularLocalStorage: ab82145c6000fd7b8b80be95d05e7c867f9da2a8
 
-PODFILE CHECKSUM: ac9e3bdb9a49a91f4f778dce49a870f6db0db317
+PODFILE CHECKSUM: 8a708826e34afb92a45b15396ee83d278ff6b8d2
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

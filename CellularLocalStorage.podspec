@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |spec|
  spec.name             = 'CellularLocalStorage'
- spec.swift_version    = '4.2'
+ spec.swift_version    = '5.0'
  spec.module_name      = 'LocalStorage'
- spec.version          = '4.2.0'
+ spec.version          = '5.0.0'
  spec.summary          = 'Easy to use storage for persisting small data sets'
 
 # This description is used to generate tags and improve search results.
@@ -27,15 +27,14 @@ Pod::Spec.new do |spec|
  spec.source           = { :git => 'https://github.com/cellular/localstorage-swift.git', :tag =>spec.version.to_s }
 
   # Deployment Targets
- spec.ios.deployment_target = '9.0'
- spec.tvos.deployment_target = '9.0'
- spec.watchos.deployment_target = '2.0'
+ spec.ios.deployment_target = '10.3'
+ spec.tvos.deployment_target = '10.2'
+ spec.watchos.deployment_target = '2.2'
 
     # Core Subspec
 
     spec.subspec 'Core' do |sub|
-        sub.dependency 'CELLULAR/Result', '~> 4.1.0'
-        sub.dependency 'CELLULAR/Locking', '~> 4.1.0'
+        sub.dependency 'CELLULAR/Locking', '~> 5.0.0'
         sub.source_files = 'Source/Core/**/*.swift'
     end
 
@@ -50,7 +49,7 @@ Pod::Spec.new do |spec|
     # Decoder Subspecs
 
     spec.subspec 'Unbox' do |sub|
-        sub.dependency 'Unbox', '~> 2.5.0'
+        sub.dependency 'Unbox', '~> 4.0.0'
         sub.dependency 'CellularLocalStorage/Core'
         sub.source_files = 'Source/Unbox/UnboxDecoder.swift'
     end
