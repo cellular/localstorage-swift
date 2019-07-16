@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
  spec.name             = 'CellularLocalStorage'
  spec.swift_version    = '5.0'
  spec.module_name      = 'LocalStorage'
- spec.version          = '5.0.0'
+ spec.version          = '5.0.1'
  spec.summary          = 'Easy to use storage for persisting small data sets'
 
 # This description is used to generate tags and improve search results.
@@ -34,14 +34,14 @@ Pod::Spec.new do |spec|
     # Core Subspec
 
     spec.subspec 'Core' do |sub|
-        sub.dependency 'CELLULAR/Locking', '~> 5.0.0'
+        sub.dependency 'CELLULAR/Locking', '~> 5.0'
         sub.source_files = 'Source/Core/**/*.swift'
     end
 
     # Encoder Subspecs
 
     spec.subspec 'Wrap' do |sub|
-        sub.dependency 'Wrap', '~> 3.0.0'
+        sub.dependency 'Wrap', '~> 3.0'
         sub.dependency 'CellularLocalStorage/Core'
         sub.source_files = 'Source/Wrap/WrapEncoder.swift'
     end
@@ -49,7 +49,7 @@ Pod::Spec.new do |spec|
     # Decoder Subspecs
 
     spec.subspec 'Unbox' do |sub|
-        sub.dependency 'Unbox', '~> 4.0.0'
+        sub.dependency 'Unbox', '~> 4.0'
         sub.dependency 'CellularLocalStorage/Core'
         sub.source_files = 'Source/Unbox/UnboxDecoder.swift'
     end
