@@ -1,6 +1,0 @@
-framework module CELLULAR {
-  umbrella header "CELLULAR-umbrella.h"
-
-  export *
-  module * { export * }
-}
