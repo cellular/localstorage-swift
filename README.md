@@ -122,7 +122,7 @@ manager.async.all(from: Identifier.user.rawValue, using: decoder) { result in
 
 ```swift
   dependencies: [
-        .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0.1")
+        .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0.0")
     ]
 ```
 
