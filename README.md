@@ -7,7 +7,7 @@
 
 <p align="center">
     <a href="https://swift.org">
-        <img src="https://img.shields.io/badge/swift-5.0-orange.svg?style=flat" alt="Swift Version">
+        <img src="https://img.shields.io/badge/swift-5.1-orange.svg?style=flat" alt="Swift Version">
     </a>
     <a href="http://travis-ci.com/cellular/localstorage-swift/">
         <img src="https://img.shields.io/travis/com/cellular/localstorage-swift.svg" alt="Travis Build">
@@ -110,12 +110,23 @@ manager.async.all(from: Identifier.user.rawValue, using: decoder) { result in
    }
 }
 ```
-
+## Requirements
+- Swift 5.0+
+- iOS 11.0+
+- tvOS 11.0+
+- watchOS 5.0+
 
 ## Installation
 
-CellularLocalStorage is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### [Swift Package Manager](https://swift.org/package-manager/)
+
+```swift
+  dependencies: [
+        .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0.1")
+    ]
+```
+
+### [CocoaPods](http://cocoapods.org)
 
 ```ruby
 pod "CellularLocalStorage"

@@ -1,6 +1,0 @@
-framework module Pods_CellularLocalStorageTests_iOS {
-  umbrella header "Pods-CellularLocalStorageTests iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

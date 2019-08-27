@@ -43,7 +43,7 @@
 
         ]
       },
-      "source_files": "Source/Wrap/WrapEncoder.swift"
+      "source_files": "Source/Wrap/NativeEncoder.swift"
     },
     {
       "name": "Unbox",
@@ -55,7 +55,7 @@
 
         ]
       },
-      "source_files": "Source/Unbox/UnboxDecoder.swift"
+      "source_files": "Source/Unbox/NativeDecoder.swift"
     }
   ]
 }
