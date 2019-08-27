@@ -38,22 +38,6 @@ Pod::Spec.new do |spec|
         sub.source_files = 'Source/Core/**/*.swift'
     end
 
-    # Encoder Subspecs
-
-    spec.subspec 'Wrap' do |sub|
-        sub.dependency 'Wrap', '~> 3.0'
-        sub.dependency 'CellularLocalStorage/Core'
-        sub.source_files = 'Source/Wrap/WrapEncoder.swift'
-    end
-
-    # Decoder Subspecs
-
-    spec.subspec 'Unbox' do |sub|
-        sub.dependency 'Unbox', '~> 4.0'
-        sub.dependency 'CellularLocalStorage/Core'
-        sub.source_files = 'Source/Unbox/UnboxDecoder.swift'
-    end
-
     # Default Subspecs
 
     spec.default_subspecs = 'Core'
