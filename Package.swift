@@ -4,16 +4,16 @@ import PackageDescription
 let package = Package(
     name: "LocalStorage",
     platforms: [
-        .macOS(.v10_15),
+        .iOS(.v11), .tvOS(.v11), .watchOS(.v5)
     ],
     products: [
-        .library(name: "LocalStorage", targets: ["MyLibrary"]),
+        .library(name: "LocalStorage", targets: ["LocalStorage"])
     ],
     dependencies: [
-        .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0")
+        .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0.1")
     ],
     targets: [
-        .target(name: "MyLibrary", dependencies: ["Utility"]),
-        .testTarget(name: "LocalStorageTests", dependencies: ["LocalStorage"]),
+        .target(name: "LocalStorage", dependencies: ["CELLULAR"]),
+        .testTarget(name: "LocalStorageTests", dependencies: ["LocalStorage"])
     ]
 )

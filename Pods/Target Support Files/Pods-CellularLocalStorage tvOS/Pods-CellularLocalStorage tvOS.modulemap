@@ -1,6 +1,0 @@
-framework module Pods_CellularLocalStorage_tvOS {
-  umbrella header "Pods-CellularLocalStorage tvOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
