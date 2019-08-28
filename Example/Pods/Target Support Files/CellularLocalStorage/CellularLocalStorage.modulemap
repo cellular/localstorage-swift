@@ -1,6 +1,0 @@
-framework module LocalStorage {
-  umbrella header "CellularLocalStorage-umbrella.h"
-
-  export *
-  module * { export * }
-}
