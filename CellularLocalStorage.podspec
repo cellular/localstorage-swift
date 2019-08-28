@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
     # Core Subspec
 
     spec.subspec 'Core' do |sub|
-        sub.dependency 'CELLULAR/Locking', '~> 5.0'
+        sub.dependency 'CELLULAR/Locking', '~> 6.0.0'
         sub.source_files = 'Sources/**/*.swift'
     end
 
