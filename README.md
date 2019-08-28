@@ -83,7 +83,7 @@ let manager = Manager(storages: storages, lock: lock, asyncQueue: asyncQueue)
 ```swift
 
 let user = User(name: "Bernd")
-let encoder = NativeEncoder<User>(encoder: JSONEncoder())
+let encoder = FoundationEncoder<User>(encoder: JSONEncoder())
 // Prefer async access over sync access
 // Sync access := manager.append(_, using: _) -> Result<T, Error>
 manager.async.append(user, to: Identifier.user.rawValue, using: encoder) { result in
@@ -98,7 +98,7 @@ manager.async.append(user, to: Identifier.user.rawValue, using: encoder) { resul
 
 #### 4. Load stored user list
 ```swift
-let decoder = NativeDecoder<User>(decoder: JSONDecoder())
+let decoder = FoundationDecoder<User>(decoder: JSONDecoder())
 // Prefer async access over sync access
 // Sync access := manager.all(from: _, using: _) -> Result<[T], Error>
 manager.async.all(from: Identifier.user.rawValue, using: decoder) { result in

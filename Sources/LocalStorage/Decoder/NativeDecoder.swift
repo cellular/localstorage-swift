@@ -1,7 +1,7 @@
 import Foundation
 
 /// Decodes JSON into native object using Swift.JSONDecoder
-public final class NativeDecoder<T: Decodable>: Decoder {
+public final class FoundationDecoder<T: Decodable>: Decoder {
 
     private let decoder: JSONDecoder
 

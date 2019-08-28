@@ -79,8 +79,8 @@ class TestStorage: XCTestCase {
 
             let firstUser = User(name: "Karl")
 
-            let encoder = NativeEncoder<User>()
-            let decoder = NativeDecoder<User>()
+            let encoder = FoundationEncoder<User>()
+            let decoder = FoundationDecoder<User>()
 
             // Clear storage before actual test
             try storage.clear()
@@ -270,8 +270,8 @@ class TestStorage: XCTestCase {
     func testPermanentStorage(provider: () throws -> Storage) throws {
 
         var initialStorage: Storage? = try provider()
-        let encoder = NativeEncoder<User>(encoder: .init())
-        let decoder = NativeDecoder<User>(decoder: .init())
+        let encoder = FoundationEncoder<User>(encoder: .init())
+        let decoder = FoundationDecoder<User>(decoder: .init())
         let user: [User] = [User(name: "Karl"), User(name: "Bernd")]
         // Clear storage first
         try initialStorage?.clear()

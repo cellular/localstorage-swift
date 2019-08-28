@@ -32,10 +32,10 @@ class TestManager: XCTestCase {
         let manager = createManager()
         let user = User(name: "first user")
 
-        switch manager.append(user, to: userStorageIdentifier, using: NativeEncoder<User>()) {
+        switch manager.append(user, to: userStorageIdentifier, using: FoundationEncoder<User>()) {
         case .success(let appendResult):
             XCTAssertTrue(appendResult.name == user.name)
-            switch manager.all(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+            switch manager.all(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
             case .success(let loadResult) where loadResult.count == 1:
                 XCTAssertTrue(loadResult.first?.name == user.name)
 
@@ -61,12 +61,12 @@ class TestManager: XCTestCase {
         let manager = createManager()
         let user = [User(name: "first user"), User(name: "second user")]
 
-        switch manager.append(all: user, to: userStorageIdentifier, using: NativeEncoder<User>()) {
+        switch manager.append(all: user, to: userStorageIdentifier, using: FoundationEncoder<User>()) {
         case .success(let appendResult):
             XCTAssertTrue(appendResult.count == 2)
             XCTAssertTrue(user == appendResult)
 
-            switch manager.all(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+            switch manager.all(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
             case .success(let loadResult) where loadResult.count == 2:
                 XCTAssertTrue(loadResult == appendResult)
 
@@ -92,9 +92,9 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let user = [User(name: "first user"), User(name: "second user")]
-        manager.append(all: user, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: user, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
-        switch manager.all(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+        switch manager.all(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
         case .success(let list) where list.count == 2:
             XCTAssertTrue(list == user)
 
@@ -115,9 +115,9 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let user = [User(name: "first user"), User(name: "second user")]
-        manager.append(all: user, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: user, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
-        switch manager.first(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+        switch manager.first(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
         case .success(let first?):
             XCTAssertTrue(first.name == user[0].name)
 
@@ -128,7 +128,7 @@ class TestManager: XCTestCase {
             XCTFail(String(describing: error))
         }
 
-        switch manager.first(from: userStorageIdentifier, using: NativeDecoder<User>(), where: { $0.name == user[1].name }) {
+        switch manager.first(from: userStorageIdentifier, using: FoundationDecoder<User>(), where: { $0.name == user[1].name }) {
         case .success(let first?):
             XCTAssertTrue(first.name == user[1].name)
 
@@ -149,9 +149,9 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let user = [User(name: "Hans"), User(name: "Hans"), User(name: "Wurst"), User(name: "Hans")]
-        manager.append(all: user, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: user, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
-        switch manager.filter(from: userStorageIdentifier, using: NativeDecoder<User>(), including: { $0.name == "Hans" }) {
+        switch manager.filter(from: userStorageIdentifier, using: FoundationDecoder<User>(), including: { $0.name == "Hans" }) {
         case .success(let filteredUser) where filteredUser.count == 3:
             filteredUser.forEach { XCTAssertTrue( $0.name == "Hans") }
 
@@ -172,9 +172,9 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let user = [User(name: "Bernd"), User(name: "Igor"), User(name: "Hans"), User(name: "Karl")]
-        manager.append(all: user, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: user, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
-        switch manager.contains(userStorageIdentifier, using: NativeDecoder<User>(), where: { $0.name == "Igor" }) {
+        switch manager.contains(userStorageIdentifier, using: FoundationDecoder<User>(), where: { $0.name == "Igor" }) {
         case .success(let contained):
             XCTAssertTrue(contained)
 
@@ -182,7 +182,7 @@ class TestManager: XCTestCase {
             XCTFail(String(describing: error))
         }
 
-        switch manager.contains(userStorageIdentifier, using: NativeDecoder<User>(), where: { $0.name == "Wurst" }) {
+        switch manager.contains(userStorageIdentifier, using: FoundationDecoder<User>(), where: { $0.name == "Wurst" }) {
         case .success(let contained):
             XCTAssertFalse(contained)
 
@@ -200,10 +200,10 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let user = [User(name: "Bernd"), User(name: "Igor"), User(name: "Hans"), User(name: "Karl")]
-        manager.append(all: user, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: user, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
 
-        switch manager.last(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+        switch manager.last(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
         case .success(let last):
             XCTAssertTrue(last?.name == user.last?.name)
 
@@ -223,20 +223,20 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let user = [User(name: "Bernd"), User(name: "Igor"), User(name: "Hans"), User(name: "Karl")]
-        manager.append(all: user, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: user, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
         let userNameToRemove = user[2].name
 
         let result = manager.remove(from: userStorageIdentifier,
-                                    using: NativeDecoder<User>(),
-                                    encoder: NativeEncoder<User>(),
+                                    using: FoundationDecoder<User>(),
+                                    encoder: FoundationEncoder<User>(),
                                     where: { $0.name == userNameToRemove })
 
         switch result {
         case .success(let removedObject):
             XCTAssertTrue(removedObject?.name == userNameToRemove)
 
-            switch manager.all(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+            switch manager.all(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
             case .success(let loadResult) where loadResult.count == 3:
                 XCTAssertTrue(loadResult[0].name == user[0].name)
                 XCTAssertTrue(loadResult[1].name == user[1].name)
@@ -265,16 +265,16 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let originalList = [User(name: "Bernd"), User(name: "Igor"), User(name: "Hans"), User(name: "Karl")]
-        manager.append(all: originalList, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: originalList, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
         let replaceList = [User(name: "Lorem"), User(name: "Ipsum"), User(name: "Wurst"), User(name: "Rolph")]
 
-        switch manager.replaceAll(in: userStorageIdentifier, with: replaceList, using: NativeEncoder<User>()) {
+        switch manager.replaceAll(in: userStorageIdentifier, with: replaceList, using: FoundationEncoder<User>()) {
         case .success(let successList):
             XCTAssertTrue(replaceList == successList)
             XCTAssertFalse(replaceList == originalList)
 
-            switch manager.all(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+            switch manager.all(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
             case .success(let loadResult) where loadResult.count == 4:
                 XCTAssertTrue(replaceList == loadResult)
 
@@ -298,13 +298,13 @@ class TestManager: XCTestCase {
 
         let manager = createManager()
         let originalList = [User(name: "Bernd"), User(name: "Igor"), User(name: "Hans"), User(name: "Karl")]
-        manager.append(all: originalList, to: userStorageIdentifier, using: NativeEncoder<User>())
+        manager.append(all: originalList, to: userStorageIdentifier, using: FoundationEncoder<User>())
 
         switch manager.clear(storage: userStorageIdentifier) {
         case .success(let cleared):
             XCTAssertTrue(cleared)
 
-            switch manager.all(from: userStorageIdentifier, using: NativeDecoder<User>()) {
+            switch manager.all(from: userStorageIdentifier, using: FoundationDecoder<User>()) {
             case .success(let loadResult):
                 XCTAssertTrue(loadResult.count == 0)
 

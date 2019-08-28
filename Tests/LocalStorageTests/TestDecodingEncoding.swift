@@ -12,10 +12,10 @@ class TestDecodingEncoding: XCTestCase {
             let firstUser = User(name: "Karl")
 
             // Encode user to Data
-            let encodedData = try NativeEncoder<User>().encode(object: firstUser)
+            let encodedData = try FoundationEncoder<User>().encode(object: firstUser)
 
             // Decode user from Data
-            let decodedModel = try NativeDecoder<User>().decode(data: encodedData)
+            let decodedModel = try FoundationDecoder<User>().decode(data: encodedData)
 
             XCTAssert(decodedModel.name == firstUser.name, "Encoded and decoded model does not match initial model.")
 
