@@ -9,8 +9,8 @@ class TestPerformance: XCTestCase {
     let userDefaults = UserDefaults.standard
 
     let testUsers = performanceRange.map { User(name: "Testuser #\($0)") }
-    let encoder = NativeEncoder<User>(encoder: JSONEncoder())
-    let decoder = NativeDecoder<User>(decoder: JSONDecoder())
+    let encoder = FoundationEncoder<User>(encoder: JSONEncoder())
+    let decoder = FoundationDecoder<User>(decoder: JSONDecoder())
 
     override func setUp() {
         super.setUp()

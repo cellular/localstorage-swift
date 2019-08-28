@@ -65,7 +65,7 @@ extension Storage {
         ///
         /// - Parameter completion: Completion
         func all(completion: @escaping ([User]) -> Void) {
-            let decoder = NativeDecoder<User>(decoder: JSONDecoder())
+            let decoder = FoundationDecoder<User>(decoder: JSONDecoder())
             manager.async.all(from: Identifier.user.rawValue, using: decoder) { result in
                 switch result {
                 case .success(let user):
@@ -79,7 +79,7 @@ extension Storage {
 
         // Replaces stored user list with given list of user
         func replaceAll(with user: [User], completion: @escaping () -> Void) {
-            let encoder = NativeEncoder<User>(encoder: JSONEncoder())
+            let encoder = FoundationEncoder<User>(encoder: JSONEncoder())
             manager.async.replaceAll(in: Identifier.user.rawValue, with: user, using: encoder) { result in
                 switch result {
                 case .success(_):

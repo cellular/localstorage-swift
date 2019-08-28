@@ -1,7 +1,7 @@
 import Foundation
 
 /// Encodes native object into JSON
-public final class NativeEncoder<T: Encodable>: Encoder {
+public final class FoundationEncoder<T: Encodable>: Encoder {
 
     private let encoder: JSONEncoder
 
