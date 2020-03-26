@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v11), .tvOS(.v11), .watchOS(.v5)
     ],
     products: [
-        .library(name: "LocalStorage", targets: ["LocalStorage"])
+        .library(name: "LocalStorage", type: .dynamic, targets: ["LocalStorage"])
     ],
     dependencies: [
         .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0.1")
