@@ -5,9 +5,9 @@
         "package": "CELLULAR",
         "repositoryURL": "https://github.com/cellular/cellular-swift.git",
         "state": {
-          "branch": null,
-          "revision": "2e1108028fb08424a870ad5406c4757e35810330",
-          "version": "6.0.1"
+          "branch": "feature/xcode_11.4",
+          "revision": "78eebd953b4f4665cdae9b4e8a940d2fdc99d22c",
+          "version": null
         }
       }
     ]

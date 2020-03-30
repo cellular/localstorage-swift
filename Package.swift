@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "LocalStorage", type: .dynamic, targets: ["LocalStorage"])
     ],
     dependencies: [
-        .package(url: "https://github.com/cellular/cellular-swift.git", .branch("master"))
+        .package(url: "https://github.com/cellular/cellular-swift.git", .branch("feature/xcode_11.4"))
     ],
     targets: [
         .target(name: "LocalStorage", dependencies: ["CELLULAR"]),
