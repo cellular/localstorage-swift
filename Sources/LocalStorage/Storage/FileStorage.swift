@@ -218,6 +218,7 @@ extension FileStorage {
         case documents
         case cashes
         case library
+        case applicationSupport
 
         /// The FileManager.SearchPathDirectory representation
         var searchPath: FileManager.SearchPathDirectory {
@@ -228,6 +229,8 @@ extension FileStorage {
                 return .cachesDirectory
             case .library:
                 return .libraryDirectory
+            case .applicationSupport:
+                return .applicationSupportDirectory
             }
         }
     }
